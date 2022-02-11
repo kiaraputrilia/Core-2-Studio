@@ -1,0 +1,309 @@
+body {
+    background: Ivory;
+    height: 100vh;
+  
+  }
+#squareHouse {
+    width: 450px;
+    height: 450px;
+    background-color: Moccasin;
+    position: absolute;
+    top: 400px;
+    left: 650px;
+
+  }
+  #triangleRoof {
+      width: 0;
+      height: 0;
+      border-left: 300px solid transparent;
+      border-right: 300px solid transparent;
+      border-bottom: 450px solid cornflowerBlue;
+      position: absolute;
+      top: 50px;
+      left: 580px;
+
+  }
+ #rectangleDoor {
+      width: 100px;
+      height: 200px;
+      background: cornflowerBlue;
+      position: absolute;
+      top: 650px;
+      left: 820px;
+
+}
+#rectangleGrass {
+      width: 1780px;
+      height: 100px;
+      background: darkOliveGreen;
+      position: absolute;
+      top: 850px;
+}
+
+ .circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+
+#circle-1 {
+    position: absolute;
+    top: 620px;
+    left: 23px;
+    background-color: DarkOrange;
+    border: 10px solid Magenta ;
+    
+}
+
+#circle-2 {
+    position: absolute;
+    top: 620px;
+    left: 150px;
+    background-color: Gold;
+    border: 10px solid Coral ;
+    
+}
+#circle-3 {
+    position: absolute;
+    top: 620px;
+    left: 277px;
+    background-color: Magenta;
+    border: 10px solid DarkOrange ;
+    
+}
+#circle-4 {
+    position: absolute;
+    top: 620px;
+    left: 404px;
+    background-color: OrangeRed;
+    border: 10px solid PaleVioletRed ;
+    
+}
+#circle-5 {
+    position: absolute;
+    top: 620px;
+    left: 1250px;
+    background-color: Tomato;
+    border: 10px solid SlateBlue ;
+    
+}
+#circle-6 {
+    position: absolute;
+    top: 620px;
+    left: 1377px;
+    background-color: LightPink;
+    border: 10px solid OrangeRed ;
+    
+}
+#circle-7 {
+    position: absolute;
+    top: 620px;
+    left: 1504px;
+    background-color: IndianRed;
+    border: 10px solid Green ;
+    
+}
+#circle-8 {
+    position: absolute;
+    top: 620px;
+    left: 1631px;
+    background-color: SlateBlue;
+    border: 10px solid Tomato ;
+    
+}
+  .stem {
+    width: 10px;
+    height: 150px;
+  }
+  
+  #stem-1 {
+    position: absolute;
+    top: 700px;
+    left: 60px;
+    background-color: Magenta;
+  
+ }
+  
+  #stem-2 {
+    position: absolute;
+    top: 700px;
+    left: 190px;
+    background-color: Coral;
+
+}
+#stem-3 {
+    position: absolute;
+    top: 700px;
+    left: 315px;
+    background-color: DarkOrange;
+
+}
+#stem-4 {
+    position: absolute;
+    top: 700px;
+    left: 442px;
+    background-color: PaleVioletRed;
+
+}
+#stem-5 {
+    position: absolute;
+    top: 700px;
+    left: 1290px;
+    background-color: SlateBlue;
+
+}
+#stem-6 {
+    position: absolute;
+    top: 700px;
+    left: 1417px;
+    background-color: OrangeRed;
+
+}
+#stem-7 {
+    position: absolute;
+    top: 700px;
+    left: 1544px;
+    background-color: Green;
+
+}
+#stem-8 {
+    position: absolute;
+    top: 700px;
+    left: 1671px;
+    background-color: Tomato;
+
+}
+
+.leaf {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  border-bottom-right-radius: 0;
+  transform: rotate(-20deg);
+  border-top-left-radius: 0px;
+}
+
+#leaf-1 {
+  background-color: YellowGreen;
+  top: 800px;
+  left: 25px;
+}
+
+#leaf-2 {
+  background-color: YellowGreen;
+  top: 730px;
+  left: 155px;
+}
+#leaf-3 {
+  background-color: YellowGreen;
+  top: 800px;
+  left: 155px;
+}
+#leaf-4 {
+  background-color: YellowGreen;
+  top: 720px;
+  left: 283px;
+}
+#leaf-5 {
+  background-color: YellowGreen;
+  top: 805px;
+  left: 411px;
+}
+
+#leaf-6 {
+  background-color: YellowGreen;
+  top: 790px;
+  left: 1260px;
+}
+#leaf-7 {
+  background-color: YellowGreen;
+  top: 750px;
+  left: 1260px;
+}
+#leaf-8 {
+  background-color: YellowGreen;
+  top: 740px;
+  left: 1388px;
+}
+#leaf-9 {
+  background-color: YellowGreen;
+  top: 770px;
+  left: 1516px;
+}
+#leaf-10 {
+  background-color: YellowGreen;
+  top: 720px;
+  left: 1642px;
+}
+#leaf-11 {
+  background-color: YellowGreen;
+  top: 780px;
+  left: 1642px;
+}
+
+.leafSec {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  border-bottom-right-radius: 0;
+  transform: rotate(120deg);
+  border-top-left-radius: 0px;
+    
+}
+#leafSec-1 {
+    background-color: YellowGreen;
+    top: 780px;
+    left: 76px;
+}
+#leafSec-2 {
+    background-color: YellowGreen;
+    top: 760px;
+    left: 205px;
+}
+#leafSec-3 {
+    background-color: YellowGreen;
+    top: 810px;
+    left: 331px;
+}
+#leafSec-4 {
+    background-color: YellowGreen;
+    top: 760px;
+    left: 331px;
+}
+#leafSec-5 {
+    background-color: YellowGreen;
+    top: 750px;
+    left: 457px;
+}
+#leafSec-6 {
+    background-color: YellowGreen;
+    top: 705px;
+    left: 457px;
+}
+#leafSec-7 {
+    background-color: YellowGreen;
+    top: 705px;
+    left: 1305px;
+}
+#leafSec-8 {
+    background-color: YellowGreen;
+    top: 740px;
+    left: 1430px;
+}
+#leafSec-9 {
+    background-color: YellowGreen;
+    top: 750px;
+    left: 1680px;
+}
+#leafSec-10 {
+    background-color: YellowGreen;
+    top: 800px;
+    left: 1680px;
+}
+#leafSec-11 {
+    background-color: YellowGreen;
+    top: 750px;
+    left: 1550px;
+}
