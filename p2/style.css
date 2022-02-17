@@ -1,0 +1,24 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.Loop {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+section {
+  position: relative;
+  text-align: center;
+  min-height: 300px;
+  max-height: 700px;
+  height: 80%;
+}
+
+::scrollbar {
+  display: none;
+}
