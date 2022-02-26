@@ -11,6 +11,11 @@ body {
       color: rgb(223, 55, 55);
   
   }
+
+body:hover {
+    color: rgb(223, 55, 55);
+    -webkit-text-stroke: 2px rgb(223, 55, 55);
+}
   
   a {
     color: rgb(223, 55, 55);
@@ -50,7 +55,7 @@ body {
   }
   
   .link {
-    border: 1px solid rgb(223, 55, 55);
+    border: 2px solid rgb(223, 55, 55);
     color: rgb(223, 55, 55);
     background-color: pink;
     text-decoration: none;
@@ -60,3 +65,5 @@ body {
   .link:hover {
     background-color: white;
   }
+
+  

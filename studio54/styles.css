@@ -1,0 +1,235 @@
+/* Fonts */
+@font-face {
+    font-family: "NHaasGrotesk";
+    font-weight: 100;
+    font-style: normal;
+    src: url("../fonts/NHaasGroteskDSStd-45Lt.eot");
+    src: local("â˜º"),
+        url("../fonts/NHaasGroteskDSStd-45Lt.woff") format("woff"),
+        url("../fonts/NHaasGroteskDSStd-45Lt.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Times Now";
+    font-weight: 100;
+    font-style: normal;
+    src: url("../fonts/TimesNow-Light.eot");
+    src: local("â˜º"),
+        url("../fonts/TimesNow-Light.woff") format("woff"),
+        url("../fonts/TimesNow-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Times Now";
+    font-weight: 200;
+    font-style: normal;
+    src: url("../fonts/TimesNow-SemiLight.eot");
+    src: local("â˜º"),
+        url("../fonts/TimesNow-SemiLight.woff") format("woff"),
+        url("../fonts/TimesNow-SemiLight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Times Now";
+    font-weight: 200;
+    font-style: italic;
+    src: url("../fonts/TimesNow-SemiLightIT.eot");
+    src: local("â˜º"),
+        url("../fonts/TimesNow-SemiLightIT.woff") format("woff"),
+        url("../fonts/TimesNow-SemiLightIT.otf") format("opentype");
+}
+
+::selection{
+  background: #0023eb;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0 !important;
+}
+
+html,body{
+  font-family: "Times Now";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #231f20;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul.a {
+    list-style-type: circle;
+  }
+
+a {
+  text-decoration: none;
+  color: #231f20;
+  display: inline;
+}
+
+p {
+  font-size: 8vmin;
+  letter-spacing: -.3vmin;
+  line-height: 8vmin;
+  padding: 0 1rem;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: inline;
+}
+
+span.img{
+  min-width: 200px;
+  width: 25vw;
+  line-height: 0;
+  position: absolute;
+}
+
+.link {
+  display: block;
+}
+
+.content span.img:nth-child(1){
+  left: 35%;
+  visibility: hidden;
+}
+
+.content span.img:nth-child(2){
+  top: 30%;
+  left: 10%;
+  width: 30vw;
+}
+
+.content span.img:nth-child(3){
+  right: 10%;
+  top: 40%;
+}
+
+.content span.img:nth-child(4){
+  left: 10%;
+  top: 50%;
+  width: 15vw;
+}
+
+.content span.img:nth-child(5){
+  left: 15%;
+  top: 75%;
+  width: 20vw;
+}
+
+.content span.img:nth-child(6){
+  right: 15%;
+  top: 65%;
+  width: 15vw;
+}
+
+span.img.float-left{
+  margin-right: 30px;
+}
+
+span.img.float-right{
+  margin-left: 30px;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 15vw;
+  margin: 0;
+  letter-spacing: -1vw;
+}
+
+.content {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 1rem 7.5rem 1rem;
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 3.35s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.san {
+  font-family: "Arial Narrow";
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: normal;
+  font-size: 7vmin;
+  line-height: 7.5vmin;
+  padding: 1vw 7vw;
+}
+
+.times {
+  font-family: "Times Now";
+  font-style: normal;
+}
+
+.times-italic {
+  font-family: "Times Now";
+  font-style: italic;
+}
+
+.times span a:hover, .mail:hover, .link:hover{
+  text-decoration: line-through;
+}
+
+.loader {
+  animation-name: loader;
+  animation-duration: 3.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(1,0,0,1);
+  animation-direction: normal;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background: rgb(7, 3, 247);
+}
+
+a.san.mail {
+  padding: 0;
+}
+
+@keyframes loader {
+  0% {
+    width: 0;
+    height: .75rem;
+  }
+
+  60% {
+    width: 100vw;
+    height: .75rem;
+  }
+
+  99% {
+    height: 0;
+  }
+
+  100% {
+    display: none;
+  }
+}

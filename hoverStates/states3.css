@@ -1,0 +1,43 @@
+body {
+    background-color: pink;
+}
+
+.canvas {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 200px;
+    text-align: center;
+    color: rgb(223, 55, 55);
+    font-family: sans-serif;
+    line-height: 0.7em;
+
+}
+
+.phrase1, .phrase2 {
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    padding: 20px;
+}
+	
+.phrase1:hover {
+    filter: blur(80px);  
+    cursor: pointer;
+}
+
+
+.phrase2:hover {  
+    filter: blur(80px);  
+    cursor: pointer;
+}
+
+.menu:hover, a:visited, a:link, a:active
+{
+    color:rgb(223, 55, 55);
+    text-decoration: none;
+}
+
+     

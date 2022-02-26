@@ -1,0 +1,56 @@
+
+html, body, * {
+    margin: 0 0 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	   }
+
+p {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: beige;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span:hover {
+    font-style: italic;
+    cursor: pointer;
+}
+
+.word1:hover {
+    color: red;
+}
+
+.word2:hover {
+    color: orangered;
+}
+
+.word3:hover {
+    color: mediumpurple;
+}
+
+.word4:hover {
+    color: blue;
+}
+
+.word5:hover {
+    color: yellowgreen;
+}
+
+.word6:hover {
+    color: olivedrab;
+}
+
+.word7:hover {
+    color: gold;
+}
+
+.word8:hover {
+    color: darkseagreen;
+}
