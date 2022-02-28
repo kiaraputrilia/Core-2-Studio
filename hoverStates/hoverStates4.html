@@ -2,60 +2,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Color</title>
+	<title>Hover States</title>
 	<link rel="stylesheet" href="states4.css" type="text/css" />
+    <style>
 
+html, body, * {
+    margin: 0 0 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 139, 63);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	   }
+
+p {
+    
+    font-size: 95px;
+    font-family: sans-serif;
+    color: beige;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span:hover {
+    font-style: italic;
+    cursor: pointer;
+}
+
+.word1:hover {
+    color: rgb(0, 17, 255);
+}
+
+.word2:hover {
+    color: orangered;
+}
+
+.word3:hover {
+    color: mediumpurple;
+}
+
+    </style>
 	
 </head>
 <body>
         <p>
-        	<span class="word1">“We've</span> 
-            <span class="word4">heard</span> 
-            <span class="word3">it,</span>  
-            <span class="word2">we've</span> 
-            <span class="word4">all</span> 
-            <span class="word3">heard all about all</span>  
-            <span class="word1">the</span> 
-            <span class="word4">sticks</span> 
-            <span class="word8">and</span> 
-            <span class="word1">spears </span> 
-            <span class="word8">and</span> 
-            <span class="word5">swords,</span> 
-            <span class="word3">the</span> 
-            <span class="word1">things</span> 
-            <span class="word5">to bash and </span> 
-            <span class="word1">poke</span> 
-            <span class="word3">and</span>  
-            <span class="word2">hit</span> 
-            <span class="word5">with,</span> 
-            <span class="word6">the long, </span> 
-            <span class="word4">hard</span> 
-            <span class="word3">things,</span> 
-            <span class="word5">but</span> 
-            <span class="word6">we have not </span> 
-            <span class="word1">heard </span> 
-            <span class="word8">about</span> 
-            <span class="word2">the </span>
-            <span class="word1">thing to</span> 
-            <span class="word3">put</span> 
-            <span class="word3">things</span> 
-            <span class="word8">in, </span>
-            <span class="word6">the</span> 
-            <span class="word2">container</span> 
-            <span class="word1">for</span> 
-            <span class="word2">the</span> 
-            <span class="word2">thing </span> 
-            <span class="word4">contained.</span> 
-            <span class="word7">That</span> 
-            <span class="word2">is a </span>
-            <span class="word1">new</span> 
-            <span class="word4">story.</span> 
-            <span class="word8">That</span> 
-            <span class="word8">is</span> 
-            <span class="word1">news.”</span>
+        	<span class="word1">A</span> 
+            <span class="word2"><a href="hoverStates5.html">meteorite</a></span> 
+            <span class="word3">crashed</span>  
+            <span class="word1">onto</span> 
+            <span class="word3">my</span> 
+            <span class="word3">bed!</span>  
+            
 
         <br><br>    
-        (Ursula K. Leguin)
-        </p>
+       
 </body>
 </html>

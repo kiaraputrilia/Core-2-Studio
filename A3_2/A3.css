@@ -1,9 +1,440 @@
-body{
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    background-color: #2A43A0;
-    color: rgb(255, 255, 255);
-    font-size: 1.3rem;
-    line-height: 2.2rem;
-}
+/*
+ * Economy Viewing CSS Manifest
+ */
+/*
+ * Styles that MagicModules DO NOT inherit.
+ * (e.g. laying out elements unrelated to MagicModules)
+ */
+/* line 1, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/base/_jks.scss */
+body.show .metadata {
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 15px 30px;
+    margin-top: 4em;
+  }
+  /* line 7, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/base/_jks.scss */
+  body.show .metadata .social-buttons {
+    -webkit-filter: grayscale(1) sepia(0.2);
+    -moz-filter: grayscale(1) sepia(0.2);
+    -ie-filter: grayscale(1) sepia(0.2);
+    filter: grayscale(1) sepia(0.2);
+    width: 216px;
+    height: 21px;
+  }
+  /* line 17, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/base/_jks.scss */
+  body.show .metadata .social-buttons .facebook {
+    float: left;
+    width: 80px;
+  }
+  /* line 22, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/base/_jks.scss */
+  body.show .metadata .social-buttons .twitter {
+    float: right;
+  }
+  /* line 33, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/base/_jks.scss */
+  body.show .metadata-left
+  .metadata p {
+    margin-top: 1em;
+  }
+  /* line 37, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/base/_jks.scss */
+  body.show .metadata-left {
+    width: 48%;
+    float: left;
+  }
+  /* line 41, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/base/_jks.scss */
+  body.show .metadata-left ul {
+    margin-top: -1em;
+  }
+  /* line 43, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/base/_jks.scss */
+  body.show .metadata-left ul li {
+    padding-left: 22px;
+    text-indent: -22px;
+  }
+  /* line 51, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/base/_jks.scss */
+  body.show .metadata-right {
+    width: 48%;
+    float: right;
+  }
+  /* line 56, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/base/_jks.scss */
+  body.show .clearer {
+    clear: both;
+  }
+  
+  /*
+   * Styles inherited by all MagicModules.
+   * (e.g. page background color or typography)
+   */
+  /* line 23, /home/linkedbyair/public_html/jks/app/assets/stylesheets/economy-viewing.scss.erb */
+  body.show, body.edit .magic-module.show {
+    /* Media Queries */
+  }
+  /* line 1, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show, body.edit .magic-module.show {
+    background: #FFFFCC;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    margin: 0 45px 138px 45px;
+    -webkit-text-size-adjust: none;
+  }
+  /* line 11, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show *, body.edit .magic-module.show * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* line 17, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show .magic-module, body.edit .magic-module.show .magic-module {
+    margin-top: 2em;
+  }
+  /* line 21, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show ul, body.show li, body.edit .magic-module.show ul, body.edit .magic-module.show li {
+    list-style-type: none;
+    padding: 0;
+  }
+  /* line 26, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show a:link, body.show a:visited, body.edit .magic-module.show a:link, body.edit .magic-module.show a:visited {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    -webkit-transition: color 0.125s;
+    -moz-transition: color 0.125s;
+    -ms-transition: color 0.125s;
+    -o-transition: color 0.125s;
+    transition: color 0.125s;
+  }
+  /* line 37, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show a:hover, body.edit .magic-module.show a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+  }
+  /* line 42, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show a.undecorated:link, body.show a.undecorated:visited, body.show a.undecorated:hover, body.edit .magic-module.show a.undecorated:link, body.edit .magic-module.show a.undecorated:visited, body.edit .magic-module.show a.undecorated:hover {
+    border-bottom: none;
+  }
+  /* line 46, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show h1, body.show h2, body.show h3, body.show h4, body.show h5, body.show h6, body.edit .magic-module.show h1, body.edit .magic-module.show h2, body.edit .magic-module.show h3, body.edit .magic-module.show h4, body.edit .magic-module.show h5, body.edit .magic-module.show h6 {
+    font-size: 15px;
+  }
+  /* line 50, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show h1 a:link, body.edit .magic-module.show h1 a:link {
+    border: none;
+  }
+  /* line 54, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show nav ul, body.edit .magic-module.show nav ul {
+    border: 1px solid #000;
+    padding: 30px;
+    border-radius: 20px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    /* IE <3 */
+    text-align: center;
+  }
+  /* line 64, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show nav li, body.edit .magic-module.show nav li {
+    display: inline;
+    margin-right: 9px;
+  }
+  /* line 69, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show nav li.current a, body.edit .magic-module.show nav li.current a {
+    border-bottom: none;
+    cursor: default;
+  }
+  /* line 72, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show nav li.current a:hover, body.edit .magic-module.show nav li.current a:hover {
+    color: #000;
+  }
+  /* line 77, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show .news, body.edit .magic-module.show .news {
+    text-align: left;
+  }
+  /* line 81, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show .news-item, body.edit .magic-module.show .news-item {
+    margin-bottom: 1em;
+  }
+  /* line 85, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show .board-wrapper, body.edit .magic-module.show .board-wrapper {
+    margin-top: 2em;
+    margin-left: 7px;
+  }
+  /* line 90, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show .board, body.edit .magic-module.show .board {
+    width: auto;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 0em;
+    opacity: 0;
+  }
+  /* line 98, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show .link-icon, body.edit .magic-module.show .link-icon {
+    vertical-align: bottom;
+    padding: 0 1px 3px 2px;
+  }
+  /* line 103, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show .prev-next, body.edit .magic-module.show .prev-next {
+    margin: 66px 0 0px;
+    font-size: 0;
+  }
+  /* line 108, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show .prev-next .piece:first-child, body.edit .magic-module.show .prev-next .piece:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  /* line 113, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show .prev-next .piece:last-child, body.edit .magic-module.show .prev-next .piece:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  /* line 118, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show .project .title.piece, body.edit .magic-module.show .project .title.piece {
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+  /* line 123, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show .piece, body.show a.piece, body.edit .magic-module.show .piece, body.edit .magic-module.show a.piece {
+    font-size: 15px;
+    position: relative;
+    z-index: 2;
+    width: 225px;
+    height: 225px;
+    border: 1px solid #000;
+    padding: 30px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    /* IE <3 */
+    vertical-align: middle;
+    margin: -1px 0 0 -1px;
+    text-align: center;
+  }
+  /* line 139, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show a.piece:hover, body.edit .magic-module.show a.piece:hover {
+    color: #000;
+    border-radius: 0;
+  }
+  /* line 144, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show .piece .span-wrapper, body.edit .magic-module.show .piece .span-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  /* line 150, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show .piece span, body.edit .magic-module.show .piece span {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  /* line 155, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show .project, body.edit .magic-module.show .project {
+    margin: 15px 30px;
+    text-align: left;
+  }
+  /* line 160, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show blockquote:first-child, body.edit .magic-module.show blockquote:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  /* line 165, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show blockquote:last-child, body.edit .magic-module.show blockquote:last-child {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  /* line 170, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show blockquote, body.edit .magic-module.show blockquote {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+    border: 1px solid #000;
+    padding: 15px 30px;
+    margin: 0;
+    margin-top: -1px;
+  }
+  /* line 178, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show blockquote p, body.edit .magic-module.show blockquote p {
+    display: inline;
+  }
+  /* line 182, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show blockquote footer, body.edit .magic-module.show blockquote footer {
+    font-style: normal;
+    margin-top: 0.25em;
+  }
+  /* line 187, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show .press-links, body.edit .magic-module.show .press-links {
+    margin-top: 2em;
+  }
+  /* line 191, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+  body.show .press-links div, body.edit .magic-module.show .press-links div {
+    padding-left: 22px;
+    text-indent: -22px;
+    margin: 0.5em 0;
+  }
+  @media screen and (max-width: 860px) {
+    /* line 201, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+    body.show .project img, body.edit .magic-module.show .project img {
+      max-width: 100%;
+    }
+  }
+  @media screen and (max-width: 720px) {
+    /* line 23, /home/linkedbyair/public_html/jks/app/assets/stylesheets/economy-viewing.scss.erb */
+    body.show, body.edit .magic-module.show {
+      margin: 12px;
+      min-width: 296px;
+      width: auto;
+    }
+    /* line 213, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+    body.show .page, body.edit .magic-module.show .page {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    /* line 219, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+    body.show .project, body.edit .magic-module.show .project {
+      margin: 0;
+    }
+    /* line 222, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+    body.show .piece, body.show a.piece, body.edit .magic-module.show .piece, body.edit .magic-module.show a.piece {
+      width: 138px;
+      height: 138px;
+      padding: 12px;
+    }
+    /* line 227, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/_mm_defaults.scss */
+    body.show .metadata-left, body.show .metadata-right, body.edit .magic-module.show .metadata-left, body.edit .magic-module.show .metadata-right {
+      width: 100%;
+      float: none;
+    }
+  }
+  
+  /*
+   * Magic Modules
+   * (included automatically)
+   */
+  /* line 33, /home/linkedbyair/public_html/jks/app/assets/stylesheets/economy-viewing.scss.erb */
+  body.edit .magic-module.show.video-module, body.show .video-module {
+    /* Stylesheet for VideoModule */
+  }
+  /* line 4, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/magic_modules/_video_module.scss */
+  body.edit .magic-module.show.video-module, body.show .video-module {
+    max-width: 800px;
+    text-align: left;
+  }
+  /* line 9, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/magic_modules/_video_module.scss */
+  body.edit .magic-module.show.video-module video, body.show .video-module video {
+    width: 100%;
+    max-width: 800px;
+    max-height: 800px;
+    margin-bottom: 0.2em;
+  }
+  /* line 36, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/magic_modules/_video_module.scss */
+  body.edit .magic-module.show.video-module .video, body.show .video-module .video {
+    width: 640px;
+    height: 360px;
+  }
+  @media (min-width: 128px) {
+    /* line 36, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/magic_modules/_video_module.scss */
+    body.edit .magic-module.show.video-module .video, body.show .video-module .video {
+      width: 103px;
+      height: 57.9375px;
+    }
+  }
+  @media (min-width: 256px) {
+    /* line 36, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/magic_modules/_video_module.scss */
+    body.edit .magic-module.show.video-module .video, body.show .video-module .video {
+      width: 231px;
+      height: 129.9375px;
+    }
+  }
+  @media (min-width: 300px) {
+    /* line 36, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/magic_modules/_video_module.scss */
+    body.edit .magic-module.show.video-module .video, body.show .video-module .video {
+      width: 275px;
+      height: 154.6875px;
+    }
+  }
+  @media (min-width: 320px) {
+    /* line 36, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/magic_modules/_video_module.scss */
+    body.edit .magic-module.show.video-module .video, body.show .video-module .video {
+      width: 295px;
+      height: 165.9375px;
+    }
+  }
+  @media (min-width: 330px) {
+    /* line 36, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/magic_modules/_video_module.scss */
+    body.edit .magic-module.show.video-module .video, body.show .video-module .video {
+      width: 305px;
+      height: 171.5625px;
+    }
+  }
+  @media (min-width: 384px) {
+    /* line 36, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/magic_modules/_video_module.scss */
+    body.edit .magic-module.show.video-module .video, body.show .video-module .video {
+      width: 359px;
+      height: 201.9375px;
+    }
+  }
+  @media (min-width: 420px) {
+    /* line 36, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/magic_modules/_video_module.scss */
+    body.edit .magic-module.show.video-module .video, body.show .video-module .video {
+      width: 395px;
+      height: 222.1875px;
+    }
+  }
+  @media (min-width: 480px) {
+    /* line 36, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/magic_modules/_video_module.scss */
+    body.edit .magic-module.show.video-module .video, body.show .video-module .video {
+      width: 455px;
+      height: 255.9375px;
+    }
+  }
+  @media (min-width: 512px) {
+    /* line 36, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/magic_modules/_video_module.scss */
+    body.edit .magic-module.show.video-module .video, body.show .video-module .video {
+      width: 487px;
+      height: 273.9375px;
+    }
+  }
+  @media (min-width: 640px) {
+    /* line 36, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/magic_modules/_video_module.scss */
+    body.edit .magic-module.show.video-module .video, body.show .video-module .video {
+      width: 615px;
+      height: 345.9375px;
+    }
+  }
+  
+  /* line 36, /home/linkedbyair/public_html/jks/app/assets/stylesheets/economy-viewing.scss.erb */
+  body.edit .magic-module.show.image-module, body.show .image-module {
+    /* Stylesheet for ImageModule */
+  }
+  /* line 4, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/magic_modules/_image_module.scss */
+  body.edit .magic-module.show.image-module, body.show .image-module {
+    text-align: left;
+  }
+  /* line 8, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/magic_modules/_image_module.scss */
+  body.edit .magic-module.show.image-module .image_url, body.show .image-module .image_url {
+    margin-bottom: 0.2em;
+  }
+  @media screen and (max-width: 720px) {
+    /* line 13, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/magic_modules/_image_module.scss */
+    body.edit .magic-module.show.image-module img, body.show .image-module img {
+      max-width: 100%;
+    }
+  }
+  
+  /* line 39, /home/linkedbyair/public_html/jks/app/assets/stylesheets/economy-viewing.scss.erb */
+  body.edit .magic-module.show.text-module, body.show .text-module {
+    /* Stylesheet for TextModule */
+  }
+  /* line 4, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/magic_modules/_text_module.scss */
+  body.edit .magic-module.show.text-module, body.show .text-module {
+    width: 480px;
+    text-align: left;
+    margin-bottom: 2em;
+  }
+  /* line 10, /home/linkedbyair/public_html/jks/app/assets/stylesheets/show/magic_modules/_text_module.scss */
+  body.edit .magic-module.show.text-module ul, body.edit .magic-module.show.text-module li, body.show .text-module ul, body.show .text-module li {
+    padding-left: 10px;
+    text-indent: -22px;
+  }
+  @media screen and (max-width: 480px) {
+    /* line 39, /home/linkedbyair/public_html/jks/app/assets/stylesheets/economy-viewing.scss.erb */
+    body.edit .magic-module.show.text-module, body.show .text-module {
+      width: 100%;
+      min-width: 100%;
+    }
+  }
