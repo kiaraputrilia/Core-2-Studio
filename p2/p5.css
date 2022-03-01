@@ -1,15 +1,51 @@
+::-moz-selection {
+    color: #000;
+    background: #2A43A0; }
+  
+  ::selection {
+    color: #000;
+    background: #2A43A0; }
+
 body {
-    margin:0;
-    padding:.5rem 1rem;
+    margin: 0 auto;
     font-family:Times New Roman,Times,serif;
     font-size:16px;
     line-height:1.33;
     background-color:#fff;
-    color:#000;
+    color:#2A43A0;
+    -webkit-transition: all 1000ms cubic-bezier(0.76, 0, 1, 1);
+    transition: all 1000ms cubic-bezier(0.76, 0, 1, 1);
     text-align:justify
+}
 
-    
-}br
+#container {
+    max-width: 700px;
+    margin: 15vh auto 100px;
+    padding:.5rem 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-bottom: 2px;
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 0%, #111 0%, #111 4%, rgba(0, 0, 0, 0) 4%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, #111 0%, #111 4%, rgba(0, 0, 0, 0) 4%);
+    -webkit-transition: all 250ms cubic-bezier(0.76, 0, 1, 1);
+    transition: all 250ms cubic-bezier(0.76, 0, 1, 1); }
+
+span {      
+    display: none; }
+
+    .off {
+        display: none; }
+      
+      span.on {
+        display: inline; }
+      
+      div.on, p.storynewsection.on {
+        display: block; }
+
+br
 {display:none}
 div,form,h1,h2,h3,p{display:inline;
     font-weight:400;
