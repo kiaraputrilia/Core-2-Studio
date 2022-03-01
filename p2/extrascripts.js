@@ -47,7 +47,7 @@ $(document).ready(function() {
   function pagetitle() {
   //randomises the page title from a small handful of uninteresting options
   
-      var pagetitles = ["A website about Alan Trotter, a human no one asked about", "alantrotter.com", "Alan Trotter dot comâ€”A Monument to Hubris", "â€œWith this website, Alan Trotter has achieved the apex (or, rather, nadir) of both lo-fi and self-absorption. All personal websites owe something to vanity, alantrotter.com is hewn from the stuff, it drips vaseline globules of self-conceitâ€", "Alan Trotter dot com: Alan Trotterâ€™s award-deserving homepage","Alan Trotter, unrepentant author of MUSCLE"];
+      var pagetitles = ["On Beginnings"];
       var pickpagetitle = Math.floor(Math.random()*pagetitles.length);
   
       $(document).attr('title', pagetitles[pickpagetitle]);
