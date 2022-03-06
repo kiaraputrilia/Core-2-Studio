@@ -18,40 +18,8 @@ height: 100vh;
 100% {
   background-position: 0% 30%;
 }
-
-  }
-#squareHouse {
-    width: 450px;
-    height: 450px;
-    background-color: Moccasin;
-    position: absolute;
-    top: 400px;
-    left: 650px;
-
-  }
-  #triangleRoof {
-      width: 0;
-      height: 0;
-      border-left: 300px solid transparent;
-      border-right: 300px solid transparent;
-      border-bottom: 450px solid cornflowerBlue;
-      position: absolute;
-      top: 50px;
-      left: 580px;
-
-  }
- #rectangleDoor {
-      width: 100px;
-      height: 200px;
-      background: cornflowerBlue;
-      position: absolute;
-      top: 650px;
-      left: 820px;
 }
 
-a:hover {
-  background-color: Moccasin;
-}
 
 #rectangleGrass {
       width: 1780px;
@@ -71,32 +39,10 @@ a:hover {
     position: absolute;
     top: 620px;
     left: 23px;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
     background-color: DarkOrange;
     border: 10px solid Magenta ;
     
 }
-
-#c1{
-
-position: absolute;
-    top: 620px;
-    left: 23px;
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    background-color: DarkOrange;
-    border: 5px solid Magenta ;
-  }
-
-#c1:hover{
-    opacity: 60%;
-    transform: scale(0.5, 0.5);
-}
-
-    
 
 #circle-2 {
     position: absolute;

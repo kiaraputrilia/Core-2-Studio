@@ -1,0 +1,57 @@
+::-moz-selection {
+    color: rgb(255, 244, 96);
+    background: rgb(255, 244, 96); }
+  
+  ::selection {
+    color: rgb(255, 244, 96);
+    background: rgb(255, 244, 96); }
+
+@font-face {
+        font-family: 'Editorial New';
+        src: url('EditorialNew-Light.woff') format('woff2'),
+             url('EditorialNew-Light.woff2') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+
+body {
+    margin: 0 auto;
+    font-family:'Editorial New',Times;
+    font-size:18px;
+    line-height:1.8;
+    background-color:#fff;
+    color:#000;
+    -webkit-transition: all 1000ms cubic-bezier(0.76, 0, 1, 1);
+    transition: all 1000ms cubic-bezier(0.76, 0, 1, 1);
+    text-align:justify
+}
+
+#container {
+    max-width: 700px;
+    margin: 15vh auto 100px;
+    padding:.5rem 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-bottom: 2px;
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 0%, #111 0%, #111 4%, rgba(0, 0, 0, 0) 4%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, #111 0%, #111 4%, rgba(0, 0, 0, 0) 4%);
+    -webkit-transition: all 250ms cubic-bezier(0.76, 0, 1, 1);
+    transition: all 250ms cubic-bezier(0.76, 0, 1, 1); }
+
+span {      
+    display: none; }
+
+    .off {
+        display: none; }
+      
+      span.on {
+        display: inline; }
+      
+      div.on, p.storynewsection.on {
+        display: block; }
+
+   
