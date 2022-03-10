@@ -46,28 +46,7 @@ function dragElement(element) {
         document.onmousemove = null;
     }
 }
-/***************************************************************************************/
 
-// function rockGarden(){
-//     console.log("clicked");
-//     let w = window.open("_self");
-//     w.location = "pages/rockGarden.html"; //how to assign the url to the newly opened window
-// }
-
-
-// this is the jQuery stuff, modified to suit my html
-// https://jsfiddle.net/p8dg76LL/1/
-// function dragAndListen(){
-//     console.log("its working!");
-//   $(".draggable").draggable();
-//   $(".draggable i").off("click").on("click", 
-//         function rockGarden(){
-//         console.log("clicked");
-//         let w = window.open("_self");
-//         w.location = "pages/rockGarden.html"; //how to assign the url to the newly opened window
-//         }
-//     );
-// }
 
 
 
