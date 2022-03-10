@@ -1,298 +1,306 @@
+
 body{
-  background: linear-gradient(-45deg, #3a4cf5, #f7a8a8, #ffd153, #d38fe0);
-background-size: 400% 400%;
-animation: gradient 15s ease infinite;
-  animation-direction: alternate-reverse;
-height: 100vh;
-  overflow: hidden;
-  cursor: url('cursor-1.cur'), auto;
+	overflow: hidden;
+  	background-color: cornsilk;
+  	box-sizing: border-box;
+	  font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
 }
 
-@keyframes gradient {
-0% {
-  background-position: 0% 40%;
-}
-50% {
-  background-position: 80% 50%;
-}
-100% {
-  background-position: 0% 30%;
-}
-}
-
-
-#rectangleGrass {
-      width: 1780px;
-      height: 100px;
-      background: darkOliveGreen;
-      position: absolute;
-      top: 850px;
-}
-
- .circle {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-  }
-
-#circle-1 {
-    position: absolute;
-    top: 620px;
-    left: 23px;
-    background-color: DarkOrange;
-    border: 10px solid Magenta ;
-    
-}
-
-#circle-2 {
-    position: absolute;
-    top: 620px;
-    left: 150px;
-    background-color: Gold;
-    border: 10px solid Coral ;
-    
-}
-#circle-3 {
-    position: absolute;
-    top: 620px;
-    left: 277px;
-    background-color: Magenta;
-    border: 10px solid DarkOrange ;
-    
-}
-#circle-4 {
-    position: absolute;
-    top: 620px;
-    left: 404px;
-    background-color: OrangeRed;
-    border: 10px solid PaleVioletRed ;
-    
-}
-#circle-5 {
-    position: absolute;
-    top: 620px;
-    left: 1250px;
-    background-color: Tomato;
-    border: 10px solid SlateBlue ;
-    
-}
-#circle-6 {
-    position: absolute;
-    top: 620px;
-    left: 1377px;
-    background-color: LightPink;
-    border: 10px solid OrangeRed ;
-    
-}
-#circle-7 {
-    position: absolute;
-    top: 620px;
-    left: 1504px;
-    background-color: IndianRed;
-    border: 10px solid Green ;
-    
-}
-#circle-8 {
-    position: absolute;
-    top: 620px;
-    left: 1631px;
-    background-color: SlateBlue;
-    border: 10px solid Tomato ;
-    
-}
-  .stem {
-    width: 10px;
-    height: 150px;
-  }
-  
-  #stem-1 {
-    position: absolute;
-    top: 700px;
-    left: 60px;
-    background-color: Magenta;
-  
- }
-  
-  #stem-2 {
-    position: absolute;
-    top: 700px;
-    left: 190px;
-    background-color: Coral;
-
-}
-#stem-3 {
-    position: absolute;
-    top: 700px;
-    left: 315px;
-    background-color: DarkOrange;
-
-}
-#stem-4 {
-    position: absolute;
-    top: 700px;
-    left: 442px;
-    background-color: PaleVioletRed;
-
-}
-#stem-5 {
-    position: absolute;
-    top: 700px;
-    left: 1290px;
-    background-color: SlateBlue;
-
-}
-#stem-6 {
-    position: absolute;
-    top: 700px;
-    left: 1417px;
-    background-color: OrangeRed;
-
-}
-#stem-7 {
-    position: absolute;
-    top: 700px;
-    left: 1544px;
-    background-color: Green;
-
-}
-#stem-8 {
-    position: absolute;
-    top: 700px;
-    left: 1671px;
-    background-color: Tomato;
-
-}
-
-.leaf {
+#container {
+  width: 95vw;
+  height: 90vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  padding: 30px;
   position: absolute;
-  width: 30px;
-  height: 30px;
-  border-radius: 50px;
-  border-bottom-right-radius: 0;
-  transform: rotate(-20deg);
-  border-top-left-radius: 0px;
 }
 
-#leaf-1 {
-  background-color: YellowGreen;
-  top: 800px;
-  left: 25px;
+.header{
+	width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+    text-align: center;
+	line-height: 110px;
+	padding-top: 50px;
+	text-decoration: none;
+
 }
 
-#leaf-2 {
-  background-color: YellowGreen;
-  top: 730px;
-  left: 155px;
-}
-#leaf-3 {
-  background-color: YellowGreen;
-  top: 800px;
-  left: 155px;
-}
-#leaf-4 {
-  background-color: YellowGreen;
-  top: 720px;
-  left: 283px;
-}
-#leaf-5 {
-  background-color: YellowGreen;
-  top: 805px;
-  left: 411px;
+.header:hover{
+	color: forestgreen;
 }
 
-#leaf-6 {
-  background-color: YellowGreen;
-  top: 790px;
-  left: 1260px;
-}
-#leaf-7 {
-  background-color: YellowGreen;
-  top: 750px;
-  left: 1260px;
-}
-#leaf-8 {
-  background-color: YellowGreen;
-  top: 740px;
-  left: 1388px;
-}
-#leaf-9 {
-  background-color: YellowGreen;
-  top: 770px;
-  left: 1516px;
-}
-#leaf-10 {
-  background-color: YellowGreen;
-  top: 720px;
-  left: 1642px;
-}
-#leaf-11 {
-  background-color: YellowGreen;
-  top: 780px;
-  left: 1642px;
+
+.a{
+	color: forestgreen;
+	text-decoration: none;
+	border: 3px solid forestgreen;
+	border-radius: 20px;
+	line-height: 25px;
+	padding: 5px 15px 5px 15px;
+	margin-top: 8px;
 }
 
-.leafSec {
+.a:hover{
+	color: #F2EFE4;
+	background: forestgreen;
+	text-decoration: none;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 190px;
+  background-color: forestgreen;
+  color: #F2EFE4;
+  text-align: center;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 5px 15px 5px 15px;
   position: absolute;
-  width: 30px;
-  height: 30px;
-  border-radius: 50px;
-  border-bottom-right-radius: 0;
-  transform: rotate(120deg);
-  border-top-left-radius: 0px;
-    
+  z-index: 10;
 }
-#leafSec-1 {
-    background-color: YellowGreen;
-    top: 780px;
-    left: 76px;
+
+.tooltip .tooltiptext a{
+	text-decoration: none;
+	color: white;
 }
-#leafSec-2 {
-    background-color: YellowGreen;
-    top: 760px;
-    left: 205px;
+
+.tooltip .tooltiptext a:hover{
+	text-decoration: underline;
+	font-style: italic;
 }
-#leafSec-3 {
-    background-color: YellowGreen;
-    top: 810px;
-    left: 331px;
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
-#leafSec-4 {
-    background-color: YellowGreen;
-    top: 760px;
-    left: 331px;
+
+.draggable {
+	position: absolute;
+	filter: grayscale(100%);
+  	z-index: 9;
 }
-#leafSec-5 {
-    background-color: YellowGreen;
-    top: 750px;
-    left: 457px;
+
+.draggable:hover{
+	filter: none;
 }
-#leafSec-6 {
-    background-color: YellowGreen;
-    top: 705px;
-    left: 457px;
+
+.project img{
+	height: auto;
+	width: 300px;
 }
-#leafSec-7 {
-    background-color: YellowGreen;
-    top: 705px;
-    left: 1305px;
+
+.ex img{
+	height: auto;
+	width: 200px;
 }
-#leafSec-8 {
-    background-color: YellowGreen;
-    top: 740px;
-    left: 1430px;
+
+#one{
+	top: 10%;
+	left: 75%;
 }
-#leafSec-9 {
-    background-color: YellowGreen;
-    top: 750px;
-    left: 1680px;
+
+#one img{
+	width: 150px;
+	height: auto;
 }
-#leafSec-10 {
-    background-color: YellowGreen;
-    top: 800px;
-    left: 1680px;
+
+#two{
+	top: 40%;
+	left: 12%;
 }
-#leafSec-11 {
-    background-color: YellowGreen;
-    top: 750px;
-    left: 1550px;
+
+#three{
+	left: 3%;
+	top: 60%;
 }
+
+#four{
+	top: 25%;
+	left: 50%;
+}
+
+#five{
+	top: 45%;
+	left: 35%;
+}
+
+#six{
+	top: 75%;
+	left: 60%;
+}
+
+#seven{
+	top:  40%;
+	left: 80%;
+}
+
+#eight{
+	top: 75%;
+	left: 10%;
+}
+
+#nine{
+	top: 50%;
+	left: 60%;
+}
+
+#ten{
+	top:  25%;
+	left: 70%;
+}
+
+#eleven{
+	top: 11%;
+	left: 44%;
+}
+
+#twelve{
+	top: 10%;
+	left: 60%;
+}
+
+#thirteen{
+	top: 75%;
+	left: 75%;
+}
+
+#fourteen{
+	top:  15%;
+	left: 10%;
+}
+
+#fifteen{
+	top: 70%;
+	left: 35%;
+}
+
+#sixteen{
+	top: 50%;
+	left: 80%;
+}
+
+#seventeen{
+	top:  50%;
+	left: 90%;
+}
+
+#eighteen{
+	top: 9%;
+	left: 25%;
+}
+
+#nineteen{
+	top: 5%;
+	left: 50%;
+}
+
+#twenty{
+	top: 10%;
+	left: 10%;
+}
+
+#twentyOne{
+	top:  45%;
+	left: 5%;
+}
+
+#twentyTwo{
+	top: 35%;
+	left: 35%;
+}
+
+#twentyThree{
+	top: 80%;
+	left: 10%;
+}
+
+#twentyFour{
+	top:  60%;
+	left: 70%;
+}
+
+#twentyFive{
+	top: 25%;
+	left: 9%;
+}
+
+#twentySix{
+	top: 50%;
+	left: 5%;
+}
+
+#twentySeven{
+	top: 65%;
+	left: 50%;
+}
+
+#twentyEight{
+	top: 30%;
+	left: 40%;
+}
+
+#twentyNine{
+	top:  3%;
+	left: 5%;
+}
+
+#thirty{
+	top: 50%;
+	left: 35%;
+}
+
+#thirtyOne{
+	top: 10%;
+	left: 10%;
+}
+
+#thirtyTwo{
+	top:  70%;
+	left: 40%;
+}
+
+#thirtyThree{
+	top: 10%;
+	left: 30%;
+}
+
+#thirtyFour{
+	top: 50%;
+	left: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

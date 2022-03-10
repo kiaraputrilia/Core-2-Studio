@@ -1,65 +1,192 @@
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Garden</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-  
-    
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="StartAudioContext.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Garden</title>
+</head>
 
-   
+<body>
+    <audio controls autoplay>
+        <source src="Plantasia.mp3" type="audio/mpeg">
+      </audio>
 
-    <div id="rectangleGrass"></div>
+		<div id="container">
+			<div class="header">I NEVER REALLY THOUGHT ABOUT FLOWERS 'TIL I MET YOU.</div>
 
-    <div class="stem" id="stem-1"></div>
-    <div class="stem" id="stem-2"></div>
-    <div class="stem" id="stem-3"></div>
-    <div class="stem" id="stem-4"></div>
-    <div class="stem" id="stem-5"></div>
-    <div class="stem" id="stem-6"></div>
-    <div class="stem" id="stem-7"></div>
-    <div class="stem" id="stem-8"></div>
-    <div class="circle" id="circle-1"></div>
-    <div class="circle" id="circle-2"></div>
-    <div class="circle" id="circle-3"></div>
-    <div class="circle" id="circle-4"></div>
-    <div class="circle" id="circle-5"></div>
-    <div class="circle" id="circle-6"></div>
-    <div class="circle" id="circle-7"></div>
-    <div class="circle" id="circle-8"></div>
-    <div class="petal" id="petal-1"></div>
+<p>One flower will take you somewhere.</p>
 
-    <div class="leaf" id="leaf-1"></div>
-    <div class="leaf" id="leaf-2"></div>
-    <div class="leaf" id="leaf-3"></div>
-    <div class="leaf" id="leaf-4"></div>
-    <div class="leaf" id="leaf-5"></div>
-    <div class="leaf" id="leaf-6"></div>
-    <div class="leaf" id="leaf-7"></div>
-    <div class="leaf" id="leaf-8"></div>
-    <div class="leaf" id="leaf-9"></div>
-    <div class="leaf" id="leaf-10"></div>
-    <div class="leaf" id="leaf-11"></div>
-    <div class="leaf" id="leaf-12"></div>
-    <div class="leaf" id="leaf-13"></div>
-    <div class="leaf" id="leaf-14"></div>
-    <div class="leafSec" id="leafSec-1"></div>
-    <div class="leafSec" id="leafSec-2"></div>
-    <div class="leafSec" id="leafSec-3"></div>
-    <div class="leafSec" id="leafSec-4"></div>
-    <div class="leafSec" id="leafSec-5"></div>
-    <div class="leafSec" id="leafSec-6"></div>
-    <div class="leafSec" id="leafSec-7"></div>
-    <div class="leafSec" id="leafSec-8"></div>
-    <div class="leafSec" id="leafSec-9"></div>
-    <div class="leafSec" id="leafSec-10"></div>
-    <div class="leafSec" id="leafSec-11"></div>
-    <div class="leafSec" id="leafSec-12"></div>
-    <div class="leafSec" id="leafSec-13"></div>
-    <div class="leafSec" id="leafSec-14"></div>
+			<div id="one" class="draggable project tooltip">
+				<span class="tooltiptext">to</span>
+				<img src="1.png">
+			</div>
 
-  </body>
+			<div id="two" class="draggable project tooltip">
+				<span class="tooltiptext">know</span>
+				<img src="2.png">
+			</div>
+
+			<div id="three" class="draggable ex tooltip">
+				<span class="tooltiptext">of</span>
+				<img src="3.png">
+			</div>
+
+			<div id="four" class="draggable ex tooltip">
+				<span class="tooltiptext">life</span>
+				<img src="4.png">
+			</div>
+
+			<div id="five" class="draggable ex tooltip">
+				<span class="tooltiptext" target="_blank">is</span>
+				<img src="5.png">
+			</div>
+
+			<div id="six" class="draggable ex tooltip">
+				<span class="tooltiptext">what</span>
+				<img src="6.png">
+			</div>
+
+			<div id="seven" class="draggable ex tooltip">
+				<span class="tooltiptext">I'm</span>
+				<img src="7.png">
+			</div>
+
+			<div id="eight" class="draggable ex tooltip">
+				<span class="tooltiptext">living</span>
+				<img src="8.png">
+			</div>
+
+			<div id="nine" class="draggable ex tooltip">
+				<span class="tooltiptext" target="_blank">for</span>
+				<img src="9.png">
+			</div>
+            <div id="ten" class="draggable ex tooltip">
+				<span class="tooltiptext">touch</span>
+				<img src="10.png">
+			</div>
+
+			<div id="eleven" class="draggable ex tooltip">
+				<span class="tooltiptext">my</span>
+				<img src="11.png">
+			</div>
+
+			<div id="twelve" class="draggable ex tooltip">
+				<span class="tooltiptext" target="_blank">hand</span>
+				<img src="12.png">
+			</div>
+
+            <div id="thirteen" class="draggable ex tooltip">
+				<span class="tooltiptext">yours</span>
+				<img src="13.png">
+			</div>
+
+			<div id="fourteen" class="draggable ex tooltip">
+				<span class="tooltiptext" target="_blank">for</span>
+				<img src="14.png">
+			</div>
+            <div id="fifteen" class="draggable ex tooltip">
+				<span class="tooltiptext">baby</span>
+				<img src="15.png">
+			</div>
+
+			<div id="sixteen" class="draggable ex tooltip">
+				<span class="tooltiptext">love</span>
+				<img src="16.png">
+			</div>
+
+			<div id="seventeen" class="draggable ex tooltip">
+				<span class="tooltiptext" target="_blank">that</span>
+				<img src="17.png">
+			</div>
+
+            <div id="eighteen" class="draggable ex tooltip">
+				<span class="tooltiptext" target="_blank">I</span>
+				<img src="18.png">
+			</div>
+
+            <div id="nineteen" class="draggable ex tooltip">
+				<span class="tooltiptext">live</span>
+				<img src="19.png">
+			</div>
+
+			<div id="twenty" class="draggable ex tooltip">
+				<span class="tooltiptext">you</span>
+				<img src="20.png">
+			</div>
+
+			<div id="twentyOne" class="draggable ex tooltip">
+				<span class="tooltiptext">me</span>
+				<img src="21.png">
+			</div>
+
+			<div id="twentyTwo" class="draggable ex tooltip">
+				<span class="tooltiptext" target="_blank">begins</span>
+				<img src="22.png">
+			</div>
+            <div id="twentyThree" class="draggable ex tooltip">
+				<span class="tooltiptext">and</span>
+				<img src="23.png">
+			</div>
+
+			<div id="twentyFour" class="draggable ex tooltip">
+				<span class="tooltiptext">ends</span>
+				<img src="24.png">
+			</div>
+
+			<div id="twentyFive" class="draggable ex tooltip">
+				<span class="tooltiptext" target="_blank">with</span>
+				<img src="25.png">
+			</div>
+
+            <div id="twentySix" class="draggable ex tooltip">
+				<span class="tooltiptext"><a href="https://www.youtube.com/watch?v=xoUQ2zbxNU0l" target="_blank">everyday</a></span>
+				<img src="26.png">
+			</div>
+
+			<div id="twentySeven" class="draggable ex tooltip">
+				<span class="tooltiptext" target="_blank">means</span>
+				<img src="27.png">
+			</div>
+            <div id="twentyEight" class="draggable ex tooltip">
+				<span class="tooltiptext">so</span>
+				<img src="28.png">
+			</div>
+
+			<div id="twentyNine" class="draggable ex tooltip">
+				<span class="tooltiptext">much</span>
+				<img src="29.png">
+			</div>
+
+			<div id="thirty" class="draggable ex tooltip">
+				<span class="tooltiptext" target="_blank">me</span>
+				<img src="30.png">
+			</div>
+
+            <div id="thirtyOne" class="draggable ex tooltip">
+				<span class="tooltiptext" target="_blank">you're</span>
+				<img src="31.png">
+			</div>
+            <div id="thirtyTwo" class="draggable ex tooltip">
+				<span class="tooltiptext">mine</span>
+				<img src="32.png">
+			</div>
+
+			<div id="thirtyThree" class="draggable ex tooltip">
+				<span class="tooltiptext" target="_blank">can</span>
+				<img src="33.png">
+			</div>
+
+            <div id="thirtyFour" class="draggable ex tooltip">
+				<span class="tooltiptext" target="_blank">beautiful</span>
+				<img src="34.png">
+			</div>
+
+
+			
+		</div>
+		<script type="text/javascript" src="index.js"></script>
+</body>
 </html>
