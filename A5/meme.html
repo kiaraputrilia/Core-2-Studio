@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        var array = ['http://throwingupthew.com/girls/01.jpg','http://throwingupthew.com/girls/02.jpg','http://throwingupthew.com/girls/03.jpg'];
+        function shuffle(array) {
+        var currentIndex = array.length;
+        var temporaryValue;
+        var randomIndex;
+          while (0 !== currentIndex) {
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+          }
+          return array;
+        }
+        var shuffled_images = shuffle(array);
+        for(var i=0;i<3;i++) {
+        document.getElementById('girl' + (i+1)).src = shuffled_images[i] ;
+        }
+        </script>
+    <title>Meme</title>
+  </head>
+  <body>
+
+<div id="lighttable">
+
+    <img id="A5/A5_assets/Memes/1.jpeg" src="" alt="01"/>
+    <img id="A5/A5_assets/Memes/2.jpeg" src="" alt="02" />
+    <img id="A5/A5_assets/Memes/3.png" src="" alt="03" />
+        
+</div>
+</body>
+</html>
