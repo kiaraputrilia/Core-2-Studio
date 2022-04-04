@@ -15,19 +15,19 @@ img {
 	left: 60%;
 }
 
-.carrots {
-	top: 30%;
-	left: 10%;
+.song {
+	top: 50%;
+	left: 70%;
 }
 
-.bok_choy {
+.food{
 	top: 20%;
-	left: 40%;
+	left: 0%;
 
 }
 
-.broccoli {
-	top: 60%;
+.man {
+	top: 70%;
 	left: 40%;
 	z-index: 10;
 }
