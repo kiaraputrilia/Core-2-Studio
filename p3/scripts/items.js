@@ -557,7 +557,11 @@ $(document).ready(function() {
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/dragon.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
     });
   
+    $('#item-3-all').dblclick(function() {
+        window.open('https://www.youtube.com/watch?v=nS7QvOX8LVk');
+    });
   
+
   
     /* websites */
   
