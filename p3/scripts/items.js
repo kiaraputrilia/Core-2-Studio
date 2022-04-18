@@ -18,20 +18,20 @@ $(document).ready(function() {
   
     /* column-1 */
   
-    /* projects */
+    /* nations */
   
-    $('#item-1-projects').click(function(){
-        $('#item-1-projects').removeClass("old-selected");
-        $('#item-1-projects').children(".item-arrow-grey").hide();
-        $('#item-1-projects').siblings().removeClass("old-selected");
-        $('#item-1-projects').siblings().children(".item-arrow-grey").hide();
-        $('.folder-projects').show();
-        $('.folder-projects').siblings().hide();
-        $('.folder-projects').children().removeClass("selected");
-        $('.folder-projects').children().removeClass("old-selected");
-        $('.folder-projects').children().children(".item-arrow-grey").hide();
-        $('.folder-projects').children().children(".item-arrow-blue").hide();
-        $('.folder-projects').children().children(".item-arrow").show();
+    $('#item-1-nations').click(function(){
+        $('#item-1-nations').removeClass("old-selected");
+        $('#item-1-nations').children(".item-arrow-grey").hide();
+        $('#item-1-nations').siblings().removeClass("old-selected");
+        $('#item-1-nations').siblings().children(".item-arrow-grey").hide();
+        $('.folder-nations').show();
+        $('.folder-nations').siblings().hide();
+        $('.folder-nations').children().removeClass("selected");
+        $('.folder-nations').children().removeClass("old-selected");
+        $('.folder-nations').children().children(".item-arrow-grey").hide();
+        $('.folder-nations').children().children(".item-arrow-blue").hide();
+        $('.folder-nations').children().children(".item-arrow").show();
     });
   
     /* about */
@@ -117,10 +117,10 @@ $(document).ready(function() {
   
     /* Column-2 */
   
-    /* projects */
+    /* nations */
   
-    var container = $('.folder-projects');
-    var path = $('#item-1-projects');
+    var container = $('.folder-nations');
+    var path = $('#item-1-nations');
     container.click(function(){
       path.removeClass("selected");
       path.addClass("old-selected");
@@ -143,35 +143,50 @@ $(document).ready(function() {
         $('#item-2-china').siblings().removeClass("old-selected");
         $('#item-2-china').siblings().children(".item-arrow-grey").hide();
     });
+
+     /* chile */
   
-    /* websites */
-  
-    $('#item-2-websites').click(function(){
+     $('#item-2-chile').click(function(){
         $('.column-3-holder').show();
-        $('.folder-websites').show();
-        $('.folder-websites').siblings().hide();
-        $('.folder-websites').children().removeClass("old-selected");
-        $('.folder-websites').children().removeClass("selected");
-        $('#item-2-websites').removeClass("old-selected");
-        $('#item-2-websites').children(".item-arrow-grey").hide();
-        $('#item-2-websites').children(".item-arrow").hide();
-        $('#item-2-websites').siblings().removeClass("old-selected");
-        $('#item-2-websites').siblings().children(".item-arrow-grey").hide();
+        $('.folder-chile').show();
+        $('.folder-chile').siblings().hide();
+        $('.folder-chile').children().removeClass("old-selected");
+        $('.folder-chile').children().removeClass("selected");
+        $('#item-2-chile').removeClass("old-selected");
+        $('#item-2-chile').children(".item-arrow-grey").hide();
+        $('#item-2-chile').children(".item-arrow").hide();
+        $('#item-2-chile').siblings().removeClass("old-selected");
+        $('#item-2-chile').siblings().children(".item-arrow-grey").hide();
     });
   
-    /* creative direction */
+    /* japan */
   
-    $('#item-2-creative-direction').click(function(){
+    $('#item-2-japan').click(function(){
         $('.column-3-holder').show();
-        $('.folder-creative-direction').show();
-        $('.folder-creative-direction').siblings().hide();
-        $('.folder-creative-direction').children().removeClass("old-selected");
-        $('.folder-creative-direction').children().removeClass("selected");
-        $('#item-2-creative-direction').removeClass("old-selected");
-        $('#item-2-creative-direction').children(".item-arrow-grey").hide();
-        $('#item-2-creative-direction').children(".item-arrow").hide();
-        $('#item-2-creative-direction').siblings().removeClass("old-selected");
-        $('#item-2-creative-direction').siblings().children(".item-arrow-grey").hide();
+        $('.folder-japan').show();
+        $('.folder-japan').siblings().hide();
+        $('.folder-japan').children().removeClass("old-selected");
+        $('.folder-japan').children().removeClass("selected");
+        $('#item-2-japan').removeClass("old-selected");
+        $('#item-2-japan').children(".item-arrow-grey").hide();
+        $('#item-2-japan').children(".item-arrow").hide();
+        $('#item-2-japan').siblings().removeClass("old-selected");
+        $('#item-2-japan').siblings().children(".item-arrow-grey").hide();
+    });
+  
+    /* africa  */
+  
+    $('#item-2-africa').click(function(){
+        $('.column-3-holder').show();
+        $('.folder-africa').show();
+        $('.folder-africa').siblings().hide();
+        $('.folder-africa').children().removeClass("old-selected");
+        $('.folder-africa').children().removeClass("selected");
+        $('#item-2-africa').removeClass("old-selected");
+        $('#item-2-africa').children(".item-arrow-grey").hide();
+        $('#item-2-africa').children(".item-arrow").hide();
+        $('#item-2-africa').siblings().removeClass("old-selected");
+        $('#item-2-africa').siblings().children(".item-arrow-grey").hide();
     });
   
     /* about */
@@ -187,7 +202,7 @@ $(document).ready(function() {
   
   
     $('#about').dblclick(function() {
-      alert("we make stuff you wish you thought of")
+      alert("Collection by Sophie Tsang, designed by Kiara Putrilia")
     });
   
     /* Contact */
@@ -475,22 +490,43 @@ $(document).ready(function() {
         $('.column-3-holder').show();
     });
   
-    /* projects */
+    /* nations */
   
+     /* chile */
+  
+     var container = $('.folder-africa');
+     container.click(function(){
+       $('.folder-nations').show();
+       $('#item-2-chile').removeClass("selected");
+       $('#item-2-chile').addClass("old-selected");
+       $('#item-2-chile').children(".item-arrow-blue").hide();
+       $('#item-2-chile').children(".item-arrow").hide();
+       $('#item-2-chile').children(".item-arrow-grey").show();
+       $('#item-1-nations').addClass("old-selected");
+       $('#item-1-nations').children(".item-arrow-blue").hide();
+       $('#item-1-nations').children(".item-arrow").hide();
+       $('#item-1-nations').children(".item-arrow-grey").show();
+     });
+   
+     $('#item-3-chancitos').dblclick(function() {
+         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/chile/chancitos.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");   
+     });
+   
+ 
     /* china */
   
     var container = $('.folder-china');
     container.click(function(){
-      $('.folder-projects').show();
+      $('.folder-nations').show();
       $('#item-2-china').removeClass("selected");
       $('#item-2-china').addClass("old-selected");
       $('#item-2-china').children(".item-arrow-blue").hide();
       $('#item-2-china').children(".item-arrow").hide();
       $('#item-2-china').children(".item-arrow-grey").show();
-      $('#item-1-projects').addClass("old-selected");
-      $('#item-1-projects').children(".item-arrow-blue").hide();
-      $('#item-1-projects').children(".item-arrow").hide();
-      $('#item-1-projects').children(".item-arrow-grey").show();
+      $('#item-1-nations').addClass("old-selected");
+      $('#item-1-nations').children(".item-arrow-blue").hide();
+      $('#item-1-nations').children(".item-arrow").hide();
+      $('#item-1-nations').children(".item-arrow-grey").show();
     });
     
     $('#item-3-envelope').dblclick(function() {
@@ -526,7 +562,8 @@ $(document).ready(function() {
   
     $('#item-3-chan').dblclick(function() {
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/chan.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=350,left=600,width=693,height=445");
-        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/chan2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");    });
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/chan2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");   
+     });
   
     $('#item-3-seven').dblclick(function() {
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/seven.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=304,height=166");
@@ -563,105 +600,65 @@ $(document).ready(function() {
   
 
   
-    /* websites */
+    /* japan */
   
-    var container = $('.folder-websites');
+    var container = $('.folder-japan');
     container.click(function(){
-      $('.folder-projects').show();
-      $('#item-2-websites').removeClass("selected");
-      $('#item-2-websites').addClass("old-selected");
-      $('#item-2-websites').children(".item-arrow-blue").hide();
-      $('#item-2-websites').children(".item-arrow").hide();
-      $('#item-2-websites').children(".item-arrow-grey").show();
-      $('#item-1-projects').addClass("old-selected");
-      $('#item-1-projects').children(".item-arrow-blue").hide();
-      $('#item-1-projects').children(".item-arrow").hide();
-      $('#item-1-projects').children(".item-arrow-grey").show();
+      $('.folder-nations').show();
+      $('#item-2-japan').removeClass("selected");
+      $('#item-2-japan').addClass("old-selected");
+      $('#item-2-japan').children(".item-arrow-blue").hide();
+      $('#item-2-japan').children(".item-arrow").hide();
+      $('#item-2-japan').children(".item-arrow-grey").show();
+      $('#item-1-nations').addClass("old-selected");
+      $('#item-1-nations').children(".item-arrow-blue").hide();
+      $('#item-1-nations').children(".item-arrow").hide();
+      $('#item-1-nations').children(".item-arrow-grey").show();
     });
   
-    $('#item-3-emoji').dblclick(function() {
-        window.open('http://emoji.ink');
+    $('#item-3-dragons').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/dragon.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
     });
   
-    // $('#item-3-bjork').dblclick(function() {
-       // window.open('http://bjork.com/');
-    // });
-  
-    $('#item-3-gf').dblclick(function() {
-        window.open('http://gradientforest.com/');
+    $('#item-3-cat').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/japan/cat.png", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=350,left=600,width=693,height=445");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/japan/cat1.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");       
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/japan/cat2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=350,left=600,width=693,height=445");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/japan/cat3.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");   
+    });
+
+    $('#item-3-charms').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/japan/charms.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");   
     });
   
-    $('#item-3-honey').dblclick(function() {
-        window.open('http://hhhoneyyy.net/');
-    });
+    /* africa */
   
-    $('#item-3-cr').dblclick(function() {
-        window.open('http://builder.clubrothko.com/');
-    });
-  
-    $('#item-3-klear').dblclick(function() {
-        window.open('http://klear.me/');
-    });
-  
-    $('#item-3-ep').dblclick(function() {
-        window.open('http://electricalpulse.net/');
-    });
-  
-    $('#item-3-lasso').dblclick(function() {
-        window.open('http://lasso.ink/');
-    });
-  
-    $('#item-3-rr').dblclick(function() {
-        window.open('https://vincemckelvie.com/rendered/realtime/');
-    });
-  
-    $('#item-3-hag').dblclick(function() {
-        window.open('http://vincemckelvie.tumblr.com/hag');
-    });
-  
-    $('#item-3-oc').dblclick(function() {
-        window.open('http://orthographic.camera/');
-    });
-  
-    /* creative direction */
-  
-    var container = $('.folder-creative-direction');
+    var container = $('.folder-africa');
     container.click(function(){
-      $('.folder-projects').show();
-      $('#item-2-creative-direction').removeClass("selected");
-      $('#item-2-creative-direction').addClass("old-selected");
-      $('#item-2-creative-direction').children(".item-arrow-blue").hide();
-      $('#item-2-creative-direction').children(".item-arrow").hide();
-      $('#item-2-creative-direction').children(".item-arrow-grey").show();
-      $('#item-1-projects').addClass("old-selected");
-      $('#item-1-projects').children(".item-arrow-blue").hide();
-      $('#item-1-projects').children(".item-arrow").hide();
-      $('#item-1-projects').children(".item-arrow-grey").show();
+      $('.folder-nations').show();
+      $('#item-2-africa').removeClass("selected");
+      $('#item-2-africa').addClass("old-selected");
+      $('#item-2-africa').children(".item-arrow-blue").hide();
+      $('#item-2-africa').children(".item-arrow").hide();
+      $('#item-2-africa').children(".item-arrow-grey").show();
+      $('#item-1-nations').addClass("old-selected");
+      $('#item-1-nations').children(".item-arrow-blue").hide();
+      $('#item-1-nations').children(".item-arrow").hide();
+      $('#item-1-nations').children(".item-arrow-grey").show();
     });
   
-    $('#item-3-veryman').dblclick(function() {
-        window.open('http://www.adultswim.com/etcetera/very-man/');
+    $('#item-3-teeth').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/africa/teeth.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");   
     });
   
-    $('#item-3-penismap').dblclick(function() {
-        window.open('http://www.adultswim.com/etcetera/pmgi/');
+    $('#item-3-gem').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/africa/gem.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");   
     });
   
-    $('#item-3-azz').dblclick(function() {
-        window.open('http://www.adultswim.com/etcetera/asazz/');
+    $('#item-3-hamsa').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/africa/teeth.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");   
     });
-  
-    $('#item-3-pg1').dblclick(function() {
-        window.open('http://www.adultswim.com/etcetera/pretty-gross/');
-    });
-  
-    $('#item-3-pg2').dblclick(function() {
-        window.open('http://www.adultswim.com/etcetera/pretty-gross-2/');
-    });
-  
-    $('#item-3-ea').dblclick(function() {
-        window.open('https://chrome.google.com/webstore/detail/eric-andre/ifnboedoofdmkfihhgagddionacnpdhb?hl=en-US/');
-    });
+
   
     /* contact */
   
