@@ -129,19 +129,19 @@ $(document).ready(function() {
       path.children(".item-arrow-grey").show();
     });
   
-    /* videos */
+    /* china */
   
-    $('#item-2-videos').click(function(){
+    $('#item-2-china').click(function(){
         $('.column-3-holder').show();
-        $('.folder-videos').show();
-        $('.folder-videos').siblings().hide();
-        $('.folder-videos').children().removeClass("old-selected");
-        $('.folder-videos').children().removeClass("selected");
-        $('#item-2-videos').removeClass("old-selected");
-        $('#item-2-videos').children(".item-arrow-grey").hide();
-        $('#item-2-videos').children(".item-arrow").hide();
-        $('#item-2-videos').siblings().removeClass("old-selected");
-        $('#item-2-videos').siblings().children(".item-arrow-grey").hide();
+        $('.folder-china').show();
+        $('.folder-china').siblings().hide();
+        $('.folder-china').children().removeClass("old-selected");
+        $('.folder-china').children().removeClass("selected");
+        $('#item-2-china').removeClass("old-selected");
+        $('#item-2-china').children(".item-arrow-grey").hide();
+        $('#item-2-china').children(".item-arrow").hide();
+        $('#item-2-china').siblings().removeClass("old-selected");
+        $('#item-2-china').siblings().children(".item-arrow-grey").hide();
     });
   
     /* websites */
@@ -477,38 +477,47 @@ $(document).ready(function() {
   
     /* projects */
   
-    /* videos */
+    /* china */
   
-    var container = $('.folder-videos');
+    var container = $('.folder-china');
     container.click(function(){
       $('.folder-projects').show();
-      $('#item-2-videos').removeClass("selected");
-      $('#item-2-videos').addClass("old-selected");
-      $('#item-2-videos').children(".item-arrow-blue").hide();
-      $('#item-2-videos').children(".item-arrow").hide();
-      $('#item-2-videos').children(".item-arrow-grey").show();
+      $('#item-2-china').removeClass("selected");
+      $('#item-2-china').addClass("old-selected");
+      $('#item-2-china').children(".item-arrow-blue").hide();
+      $('#item-2-china').children(".item-arrow").hide();
+      $('#item-2-china').children(".item-arrow-grey").show();
       $('#item-1-projects').addClass("old-selected");
       $('#item-1-projects').children(".item-arrow-blue").hide();
       $('#item-1-projects').children(".item-arrow").hide();
       $('#item-1-projects').children(".item-arrow-grey").show();
     });
     
-    $('#item-3-bjork').dblclick(function() {
-        window.open('https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes.jpg');
+    $('#item-3-envelope').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=304,height=166");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=20,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes3.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=530,width=550,height=550");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes4.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=350,left=350,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes5.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=100,left=500,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes6.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=304,height=166");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes7.jpg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=20,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes8.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=530,width=550,height=550");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes9.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=350,left=350,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes10.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=100,left=500,width=500,height=500");
     });
     $('#item-3-pusha').dblclick(function() {
         //window.open('https://www.youtube.com/watch?v=7s63y_kfWt4');
-        openNewWindow(300,556,"Pusha T - H.G.T.V","https://www.youtube.com/embed/7s63y_kfWt4","#item-3-pusha");
+        //openNewWindow(300,556,"Pusha T - H.G.T.V","https://www.youtube.com/embed/7s63y_kfWt4","#item-3-pusha");
     });
   
     $('#item-3-offtop').dblclick(function() {
         //window.open('https://www.youtube.com/watch?v=MWWoADvRe4s');
-        openNewWindow(560,315,"Beer Jimmy - Offtop","https://www.youtube.com/embed/MWWoADvRe4s", "#item-3-offtop");
+        //openNewWindow(560,315,"Beer Jimmy - Offtop","https://www.youtube.com/embed/MWWoADvRe4s", "#item-3-offtop");
     });
   
     $('#item-3-vince').dblclick(function() {
         //window.open('http://ghost.wyfyby.com/');
-        openNewWindow(560,315,"Vince Staples - Ghost","http://ghost.wyfyby.com/","#item-3-vince");
+        //openNewWindow(560,315,"Vince Staples - Ghost","http://ghost.wyfyby.com/","#item-3-vince");
     });
   
     $('#item-3-santigold').dblclick(function() {
@@ -548,7 +557,7 @@ $(document).ready(function() {
     });
   
     $('#item-3-idr').dblclick(function() {
-        window.open('https://www.youtube.com/watch?v=EbZoxfrJydo');
+        window.open('https://www.google.com/search?q=fu+dogs&sxsrf=APq-WBsnCdPWx30dlBsiVT0RRfT7uen7xw:1650292802786&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjE_6Pi6533AhV5p3IEHe-iCYUQ_AUoAnoECAEQBA&biw=1792&bih=955&dpr=2');
     });
   
   
@@ -572,9 +581,9 @@ $(document).ready(function() {
         window.open('http://emoji.ink');
     });
   
-    $('#item-3-bjork').dblclick(function() {
-        window.open('http://bjork.com/');
-    });
+    // $('#item-3-bjork').dblclick(function() {
+       // window.open('http://bjork.com/');
+    // });
   
     $('#item-3-gf').dblclick(function() {
         window.open('http://gradientforest.com/');
