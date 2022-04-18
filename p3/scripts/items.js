@@ -424,17 +424,17 @@ $(document).ready(function() {
   
     /* yung jake */
   
-    $('#item-2-jake').click(function(){
+    $('#item-2-celtics').click(function(){
         $('.column-3-holder').show();
-        $('.folder-jake').show();
-        $('.folder-jake').siblings().hide();
-        $('.folder-jake').children().removeClass("old-selected");
-        $('.folder-jake').children().removeClass("selected");
-        $('#item-2-jake').removeClass("old-selected");
-        $('#item-2-jake').children(".item-arrow-grey").hide();
-        $('#item-2-jake').children(".item-arrow").hide();
-        $('#item-2-jake').siblings().removeClass("old-selected");
-        $('#item-2-jake').siblings().children(".item-arrow-grey").hide();
+        $('.folder-celtics').show();
+        $('.folder-celtics').siblings().hide();
+        $('.folder-celtics').children().removeClass("old-selected");
+        $('.folder-celtics').children().removeClass("selected");
+        $('#item-2-celtics').removeClass("old-selected");
+        $('#item-2-celtics').children(".item-arrow-grey").hide();
+        $('#item-2-celtics').children(".item-arrow").hide();
+        $('#item-2-celtics').siblings().removeClass("old-selected");
+        $('#item-2-celtics').siblings().children(".item-arrow-grey").hide();
     });
   
     /* vince mckelvie */
@@ -942,8 +942,8 @@ $(document).ready(function() {
            $('#item-1-nations').children(".item-arrow").hide();
            $('#item-1-nations').children(".item-arrow-grey").show();
          });
-         $('#item-3-clover2').dblclick(function() {
-          window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/germany/clover.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+         $('#item-3-clover').dblclick(function() {
+          window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/germany/clover.png", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
          
       });
 
@@ -1138,43 +1138,28 @@ $(document).ready(function() {
   
     /* contact */
   
-    /* yung jake */
+    /* yung jake celtics */
   
-    var container = $('.folder-jake');
+    var container = $('.folder-celtics');
     container.click(function(){
       $('.folder-contact').show();
-      $('#item-2-jake').removeClass("selected");
-      $('#item-2-jake').addClass("old-selected");
-      $('#item-2-jake').children(".item-arrow-blue").hide();
-      $('#item-2-jake').children(".item-arrow").hide();
-      $('#item-2-jake').children(".item-arrow-grey").show();
+      $('#item-2-celtics').removeClass("selected");
+      $('#item-2-celtics').addClass("old-selected");
+      $('#item-2-celtics').children(".item-arrow-blue").hide();
+      $('#item-2-celtics').children(".item-arrow").hide();
+      $('#item-2-celtics').children(".item-arrow-grey").show();
       $('#item-1-contact').addClass("old-selected");
       $('#item-1-contact').children(".item-arrow-blue").hide();
       $('#item-1-contact').children(".item-arrow").hide();
       $('#item-1-contact').children(".item-arrow-grey").show();
     });
   
-    $('#item-3-yj-ig').dblclick(function() {
-        window.open('https://www.instagram.com/yungjake/?hl=en');
+    $('#item-3-rabbit').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/tribes/celtic/rabbit.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");   
     });
   
-    $('#item-3-yj-twitter').dblclick(function() {
-        window.open('https://twitter.com/yungjake?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor');
-    });
-  
-    $('#item-3-yj-facebook').dblclick(function() {
-        window.open('https://www.facebook.com/yuungjaake/');
-    });
-  
-    $('#item-3-yj-youtube').dblclick(function() {
-        window.open('https://www.youtube.com/user/jakebake135');
-    });
-  
-    $('#item-3-yj-mssngpeces').dblclick(function() {
-        window.open('http://mssngpeces.com/directors/digital/yungjake/is-yung-jake-the-internets-artist/');
-    });
-  
-    /* vince mckelvie */
+   
+    /* vikings - vince mckelvie */
   
     var container = $('.folder-vince');
     container.click(function(){
@@ -1191,79 +1176,14 @@ $(document).ready(function() {
     });
   
     $('#item-3-vince-site').dblclick(function() {
-        window.open('https://vincemckelvie.com/');
-    });
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/tribes/vikings/acorn.png", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/tribes/vikings/acorn2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");   
+   
+    });  
   
-    $('#item-3-vince-ig').dblclick(function() {
-        window.open('https://www.instagram.com/vincemckelvie/?hl=en');
-    });
-  
-    $('#item-3-vince-mssngpeces').dblclick(function() {
-        window.open('http://mssngpeces.com/directors/digital/vince-mckelvie/about-vince/');
-    });
+    
   
   
-    /* theo bark */
-  
-    var container = $('.folder-theo');
-    container.click(function(){
-      $('.folder-contact').show();
-      $('#item-2-theo').removeClass("selected");
-      $('#item-2-theo').addClass("old-selected");
-      $('#item-2-theo').children(".item-arrow-blue").hide();
-      $('#item-2-theo').children(".item-arrow").hide();
-      $('#item-2-theo').children(".item-arrow-grey").show();
-      $('#item-1-contact').addClass("old-selected");
-      $('#item-1-contact').children(".item-arrow-blue").hide();
-      $('#item-1-contact').children(".item-arrow").hide();
-      $('#item-1-contact').children(".item-arrow-grey").show();
-    });
-  
-    $('#item-3-theo-ig').dblclick(function() {
-        window.open('https://www.instagram.com/wisekingt/?hl=en');
-    });
-  
-    $('#item-3-theo-email').dblclick(function() {
-        alert("email address copied to clipboard");
-        var $temp = $("<input>");
-        $("body").append($temp);
-        $temp.val($("#email-address-theo-2").text()).select();
-        document.execCommand("copy");
-        $temp.remove();
-    });
-  
-    /* corey houck */
-  
-    var container = $('.folder-corey');
-    container.click(function(){
-      $('.folder-contact').show();
-      $('#item-2-corey').removeClass("selected");
-      $('#item-2-corey').addClass("old-selected");
-      $('#item-2-corey').children(".item-arrow-blue").hide();
-      $('#item-2-corey').children(".item-arrow").hide();
-      $('#item-2-corey').children(".item-arrow-grey").show();
-      $('#item-1-contact').addClass("old-selected");
-      $('#item-1-contact').children(".item-arrow-blue").hide();
-      $('#item-1-contact').children(".item-arrow").hide();
-      $('#item-1-contact').children(".item-arrow-grey").show();
-    });
-  
-    $('#item-3-corey-site').dblclick(function() {
-        window.open('http://coreyhouck.com');
-    });
-  
-    $('#item-3-corey-ig').dblclick(function() {
-        window.open('https://www.instagram.com/coreyhouck/');
-    });
-  
-    $('#item-3-corey-email').dblclick(function() {
-        alert("email address copied to clipboard");
-        var $temp = $("<input>");
-        $("body").append($temp);
-        $temp.val($("#email-address-corey").text()).select();
-        document.execCommand("copy");
-        $temp.remove();
-    });
   
     /* shop */
   
