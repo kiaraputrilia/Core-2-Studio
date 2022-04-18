@@ -317,6 +317,20 @@ $(document).ready(function() {
             $('#item-2-thailand').siblings().children(".item-arrow-grey").hide();
         });
     
+             /* ukraine */
+  
+             $('#item-2-ukraine').click(function(){
+                $('.column-3-holder').show();
+                $('.folder-ukraine').show();
+                $('.folder-ukraine').siblings().hide();
+                $('.folder-ukraine').children().removeClass("old-selected");
+                $('.folder-ukraine').children().removeClass("selected");
+                $('#item-2-ukraine').removeClass("old-selected");
+                $('#item-2-ukraine').children(".item-arrow-grey").hide();
+                $('#item-2-ukraine').children(".item-arrow").hide();
+                $('#item-2-ukraine').siblings().removeClass("old-selected");
+                $('#item-2-ukraine').siblings().children(".item-arrow-grey").hide();
+            });
 
     /* africa  */
   
@@ -1000,6 +1014,27 @@ $(document).ready(function() {
          window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/thailand/elephant3.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
 
      });
+
+      /* ukraine */
+  
+      var container = $('.folder-ukraine');
+      container.click(function(){
+        $('.folder-nations').show();
+        $('#item-2-ukraine').removeClass("selected");
+        $('#item-2-ukraine').addClass("old-selected");
+        $('#item-2-ukraine').children(".item-arrow-blue").hide();
+        $('#item-2-ukraine').children(".item-arrow").hide();
+        $('#item-2-ukraine').children(".item-arrow-grey").show();
+        $('#item-1-nations').addClass("old-selected");
+        $('#item-1-nations').children(".item-arrow-blue").hide();
+        $('#item-1-nations').children(".item-arrow").hide();
+        $('#item-1-nations').children(".item-arrow-grey").show();
+      });
+    
+      $('#item-3-pysanky').dblclick(function() {
+          window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/ukraine/pysanky.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+    
+      });
 
     /* africa */
   
