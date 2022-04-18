@@ -189,6 +189,23 @@ $(document).ready(function() {
             $('#item-2-france').siblings().removeClass("old-selected");
             $('#item-2-france').siblings().children(".item-arrow-grey").hide();
         });
+    
+    
+        /* germany */
+  
+        $('#item-2-germany').click(function(){
+            $('.column-3-holder').show();
+            $('.folder-germany').show();
+            $('.folder-germany').siblings().hide();
+            $('.folder-germany').children().removeClass("old-selected");
+            $('.folder-germany').children().removeClass("selected");
+            $('#item-2-germany').removeClass("old-selected");
+            $('#item-2-germany').children(".item-arrow-grey").hide();
+            $('#item-2-germany').children(".item-arrow").hide();
+            $('#item-2-germany').siblings().removeClass("old-selected");
+            $('#item-2-germany').siblings().children(".item-arrow-grey").hide();
+        });
+  
   
     /* japan */
   
@@ -678,9 +695,38 @@ $(document).ready(function() {
      });
    
      $('#item-3-nenette').dblclick(function() {
-        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/france/nenette.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/france/nenette.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=520,height=817");
     });
 
+       /* germany */
+  
+       var container = $('.folder-japan');
+       container.click(function(){
+         $('.folder-nations').show();
+         $('#item-2-germany').removeClass("selected");
+         $('#item-2-germany').addClass("old-selected");
+         $('#item-2-germany').children(".item-arrow-blue").hide();
+         $('#item-2-germany').children(".item-arrow").hide();
+         $('#item-2-germany').children(".item-arrow-grey").show();
+         $('#item-1-nations').addClass("old-selected");
+         $('#item-1-nations').children(".item-arrow-blue").hide();
+         $('#item-1-nations').children(".item-arrow").hide();
+         $('#item-1-nations').children(".item-arrow-grey").show();
+       });
+       $('#item-3-clover').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/germany/clover.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+    });
+        $('#item-3-horseshoe').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/germany/horseshoe.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+    });
+
+        $('#item-3-pigs').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/germany/pigs.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+    });
+        $('#item-3-well').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/germany/well.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+    });
+      
   
     /* japan */
   
