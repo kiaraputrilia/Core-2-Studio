@@ -221,6 +221,22 @@ $(document).ready(function() {
             $('#item-2-greece').siblings().removeClass("old-selected");
             $('#item-2-greece').siblings().children(".item-arrow-grey").hide();
         });
+
+             
+        /* guatemala */
+  
+        $('#item-2-guatemala').click(function(){
+            $('.column-3-holder').show();
+            $('.folder-guatemala').show();
+            $('.folder-guatemala').siblings().hide();
+            $('.folder-guatemala').children().removeClass("old-selected");
+            $('.folder-guatemala').children().removeClass("selected");
+            $('#item-2-guatemala').removeClass("old-selected");
+            $('#item-2-guatemala').children(".item-arrow-grey").hide();
+            $('#item-2-guatemala').children(".item-arrow").hide();
+            $('#item-2-guatemala').siblings().removeClass("old-selected");
+            $('#item-2-guatemala').siblings().children(".item-arrow-grey").hide();
+        });
   
     /* japan */
   
@@ -557,7 +573,7 @@ $(document).ready(function() {
   
      /* chile */
   
-     var container = $('.folder-africa');
+     var container = $('.folder-chile');
      container.click(function(){
        $('.folder-nations').show();
        $('#item-2-chile').removeClass("selected");
@@ -664,7 +680,7 @@ $(document).ready(function() {
 
      /* egypt */
   
-     var container = $('.folder-japan');
+     var container = $('.folder-egypt');
      container.click(function(){
        $('.folder-nations').show();
        $('#item-2-egypt').removeClass("selected");
@@ -696,7 +712,7 @@ $(document).ready(function() {
 
      /* france */
   
-     var container = $('.folder-japan');
+     var container = $('.folder-france');
      container.click(function(){
        $('.folder-nations').show();
        $('#item-2-france').removeClass("selected");
@@ -716,7 +732,7 @@ $(document).ready(function() {
 
        /* germany */
   
-       var container = $('.folder-japan');
+       var container = $('.folder-germany');
        container.click(function(){
          $('.folder-nations').show();
          $('#item-2-germany').removeClass("selected");
@@ -745,7 +761,7 @@ $(document).ready(function() {
       
           /* greece */
   
-          var container = $('.folder-japan');
+          var container = $('.folder-greece');
           container.click(function(){
             $('.folder-nations').show();
             $('#item-2-greece').removeClass("selected");
@@ -775,6 +791,31 @@ $(document).ready(function() {
            window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/greece/eye4.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
 
        });
+
+         /* guatemala */
+  
+         var container = $('.folder-guatemala');
+         container.click(function(){
+           $('.folder-nations').show();
+           $('#item-2-guatemala').removeClass("selected");
+           $('#item-2-guatemala').addClass("old-selected");
+           $('#item-2-guatemala').children(".item-arrow-blue").hide();
+           $('#item-2-guatemala').children(".item-arrow").hide();
+           $('#item-2-guatemala').children(".item-arrow-grey").show();
+           $('#item-1-nations').addClass("old-selected");
+           $('#item-1-nations').children(".item-arrow-blue").hide();
+           $('#item-1-nations').children(".item-arrow").hide();
+           $('#item-1-nations').children(".item-arrow-grey").show();
+         });
+         $('#item-3-dolls').dblclick(function() {
+          window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/guatemala/doll.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+          window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/guatemala/doll2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+          window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/guatemala/doll3.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+          window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/guatemala/doll4.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+          window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/guatemala/doll5.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+          window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/guatemala/doll6.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+
+      });
    
   
     /* japan */
