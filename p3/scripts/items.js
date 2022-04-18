@@ -237,6 +237,24 @@ $(document).ready(function() {
             $('#item-2-guatemala').siblings().removeClass("old-selected");
             $('#item-2-guatemala').siblings().children(".item-arrow-grey").hide();
         });
+
+          /* italy */
+  
+          $('#item-2-italy').click(function(){
+            $('.column-3-holder').show();
+            $('.folder-italy').show();
+            $('.folder-italy').siblings().hide();
+            $('.folder-italy').children().removeClass("old-selected");
+            $('.folder-italy').children().removeClass("selected");
+            $('#item-2-italy').removeClass("old-selected");
+            $('#item-2-italy').children(".item-arrow-grey").hide();
+            $('#item-2-italy').children(".item-arrow").hide();
+            $('#item-2-italy').siblings().removeClass("old-selected");
+            $('#item-2-italy').siblings().children(".item-arrow-grey").hide();
+        });
+
+       
+      
   
     /* japan */
   
@@ -816,7 +834,29 @@ $(document).ready(function() {
           window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/guatemala/doll6.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
 
       });
+
+
+         /* italy */
+  
+         var container = $('.folder-guatemala');
+         container.click(function(){
+           $('.folder-nations').show();
+           $('#item-2-italy').removeClass("selected");
+           $('#item-2-italy').addClass("old-selected");
+           $('#item-2-italy').children(".item-arrow-blue").hide();
+           $('#item-2-italy').children(".item-arrow").hide();
+           $('#item-2-italy').children(".item-arrow-grey").show();
+           $('#item-1-nations').addClass("old-selected");
+           $('#item-1-nations').children(".item-arrow-blue").hide();
+           $('#item-1-nations').children(".item-arrow").hide();
+           $('#item-1-nations').children(".item-arrow-grey").show();
+         });
+         $('#item-3-cornicello').dblclick(function() {
+          window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/italy/cornicello.png", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+         
+      });
    
+    
   
     /* japan */
   
