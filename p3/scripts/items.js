@@ -506,18 +506,18 @@ $(document).ready(function() {
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes10.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
     });
     $('#item-3-knot').dblclick(function() {
-        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/endlessKnot.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=304,height=166");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/endlessKnot.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=500,height=500");
 
     });
   
-    $('#item-3-offtop').dblclick(function() {
-        //window.open('https://www.youtube.com/watch?v=MWWoADvRe4s');
-        //openNewWindow(560,315,"Beer Jimmy - Offtop","https://www.youtube.com/embed/MWWoADvRe4s", "#item-3-offtop");
+    $('#item-3-jade').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/jade.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=350,left=600,width=693,height=445");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/jade2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
     });
   
-    $('#item-3-vince').dblclick(function() {
-        //window.open('http://ghost.wyfyby.com/');
-        //openNewWindow(560,315,"Vince Staples - Ghost","http://ghost.wyfyby.com/","#item-3-vince");
+    $('#item-3-coin').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/coinCharm.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=350,left=600,width=693,height=445");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/coinCharm2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
     });
   
     $('#item-3-santigold').dblclick(function() {
