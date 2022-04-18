@@ -1306,9 +1306,29 @@ $(document).ready(function() {
       $('#item-1-shop').children(".item-arrow-blue").hide();
       $('#item-1-shop').children(".item-arrow").hide();
       $('#item-1-shop').children(".item-arrow-grey").show();
-      $(".content-area").scrollLeft(480);
+    //  $(".content-area").scrollLeft(480);
+      
     });
   
+$('#item-3-sh-b-s').dblclick(function() {
+    window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/cultures/native/cricket.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+
+});  
+
+$('#item-3-sh-b-m').dblclick(function() {
+    window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/cultures/asian/bank.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+    window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/cultures/asian/bank2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+    window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/cultures/asian/bank3.png", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+    window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/cultures/asian/bank4.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+    window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/cultures/asian/bank5.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+
+});  
+
+$('#item-3-sh-b-l').dblclick(function() {
+    window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/cultures/native/turtle.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+    window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/cultures/native/turtle2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+
+});  
     /* gang hoodies */
   
     var container = $('.folder-gang-hoodie');
