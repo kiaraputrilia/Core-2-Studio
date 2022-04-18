@@ -557,17 +557,6 @@ $(document).ready(function() {
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/dragon.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
     });
   
-    $('#item-3-datamosh').dblclick(function() {
-        window.open('https://www.youtube.com/watch?v=nS7QvOX8LVk');
-    });
-  
-    $('#item-3-both').dblclick(function() {
-        window.open('https://www.youtube.com/watch?v=p7EpbiSCCEc');
-    });
-  
-    $('#item-3-idr').dblclick(function() {
-        window.open('https://www.google.com/search?q=fu+dogs&sxsrf=APq-WBsnCdPWx30dlBsiVT0RRfT7uen7xw:1650292802786&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjE_6Pi6533AhV5p3IEHe-iCYUQ_AUoAnoECAEQBA&biw=1792&bih=955&dpr=2');
-    });
   
   
     /* websites */
