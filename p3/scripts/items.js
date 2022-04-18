@@ -174,6 +174,21 @@ $(document).ready(function() {
         $('#item-2-egypt').siblings().removeClass("old-selected");
         $('#item-2-egypt').siblings().children(".item-arrow-grey").hide();
     });
+
+        /* france */
+  
+        $('#item-2-france').click(function(){
+            $('.column-3-holder').show();
+            $('.folder-france').show();
+            $('.folder-france').siblings().hide();
+            $('.folder-france').children().removeClass("old-selected");
+            $('.folder-france').children().removeClass("selected");
+            $('#item-2-france').removeClass("old-selected");
+            $('#item-2-france').children(".item-arrow-grey").hide();
+            $('#item-2-france').children(".item-arrow").hide();
+            $('#item-2-france').siblings().removeClass("old-selected");
+            $('#item-2-france').siblings().children(".item-arrow-grey").hide();
+        });
   
     /* japan */
   
@@ -644,6 +659,26 @@ $(document).ready(function() {
     });
     $('#item-3-ladder').dblclick(function() {
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/egypt/ladder.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");      
+    });
+
+     /* france */
+  
+     var container = $('.folder-japan');
+     container.click(function(){
+       $('.folder-nations').show();
+       $('#item-2-france').removeClass("selected");
+       $('#item-2-france').addClass("old-selected");
+       $('#item-2-france').children(".item-arrow-blue").hide();
+       $('#item-2-france').children(".item-arrow").hide();
+       $('#item-2-france').children(".item-arrow-grey").show();
+       $('#item-1-nations').addClass("old-selected");
+       $('#item-1-nations').children(".item-arrow-blue").hide();
+       $('#item-1-nations').children(".item-arrow").hide();
+       $('#item-1-nations').children(".item-arrow-grey").show();
+     });
+   
+     $('#item-3-nenette').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/france/nenette.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
     });
 
   
