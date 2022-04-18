@@ -286,6 +286,23 @@ $(document).ready(function() {
         $('#item-2-peru').siblings().children(".item-arrow-grey").hide();
     });
   
+
+       /* sweden */
+  
+       $('#item-2-sweden').click(function(){
+        $('.column-3-holder').show();
+        $('.folder-sweden').show();
+        $('.folder-sweden').siblings().hide();
+        $('.folder-sweden').children().removeClass("old-selected");
+        $('.folder-sweden').children().removeClass("selected");
+        $('#item-2-sweden').removeClass("old-selected");
+        $('#item-2-sweden').children(".item-arrow-grey").hide();
+        $('#item-2-sweden').children(".item-arrow").hide();
+        $('#item-2-sweden').siblings().removeClass("old-selected");
+        $('#item-2-sweden').siblings().children(".item-arrow-grey").hide();
+    });
+
+
     /* africa  */
   
     $('#item-2-africa').click(function(){
@@ -925,6 +942,27 @@ $(document).ready(function() {
     $('#item-3-tumi').dblclick(function() {
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/peru/tumi.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
     });
+
+     /* sweden */
+  
+        var container = $('.folder-peru');
+        container.click(function(){
+          $('.folder-nations').show();
+          $('#item-2-sweden').removeClass("selected");
+          $('#item-2-sweden').addClass("old-selected");
+          $('#item-2-sweden').children(".item-arrow-blue").hide();
+          $('#item-2-sweden').children(".item-arrow").hide();
+          $('#item-2-sweden').children(".item-arrow-grey").show();
+          $('#item-1-nations').addClass("old-selected");
+          $('#item-1-nations').children(".item-arrow-blue").hide();
+          $('#item-1-nations').children(".item-arrow").hide();
+          $('#item-1-nations').children(".item-arrow-grey").show();
+        });
+      
+        $('#item-3-dalecarlian').dblclick(function() {
+            window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/sweden/dalecarlian.png", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+        });
+      
   
 
     /* africa */
