@@ -206,6 +206,21 @@ $(document).ready(function() {
             $('#item-2-germany').siblings().children(".item-arrow-grey").hide();
         });
   
+          
+        /* greece */
+  
+        $('#item-2-greece').click(function(){
+            $('.column-3-holder').show();
+            $('.folder-greece').show();
+            $('.folder-greece').siblings().hide();
+            $('.folder-greece').children().removeClass("old-selected");
+            $('.folder-greece').children().removeClass("selected");
+            $('#item-2-greece').removeClass("old-selected");
+            $('#item-2-greece').children(".item-arrow-grey").hide();
+            $('#item-2-greece').children(".item-arrow").hide();
+            $('#item-2-greece').siblings().removeClass("old-selected");
+            $('#item-2-greece').siblings().children(".item-arrow-grey").hide();
+        });
   
     /* japan */
   
@@ -669,7 +684,8 @@ $(document).ready(function() {
    
     $('#item-3-beetle').dblclick(function() {
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/egypt/scarab.png", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");   
-        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/egypt/scarab2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");       });
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/egypt/scarab2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");       
+    });
     
     $('#item-3-triangles').dblclick(function() {
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/egypt/triangle.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");   
@@ -727,6 +743,39 @@ $(document).ready(function() {
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/germany/well.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
     });
       
+          /* greece */
+  
+          var container = $('.folder-japan');
+          container.click(function(){
+            $('.folder-nations').show();
+            $('#item-2-greece').removeClass("selected");
+            $('#item-2-greece').addClass("old-selected");
+            $('#item-2-greece').children(".item-arrow-blue").hide();
+            $('#item-2-greece').children(".item-arrow").hide();
+            $('#item-2-greece').children(".item-arrow-grey").show();
+            $('#item-1-nations').addClass("old-selected");
+            $('#item-1-nations').children(".item-arrow-blue").hide();
+            $('#item-1-nations').children(".item-arrow").hide();
+            $('#item-1-nations').children(".item-arrow-grey").show();
+          });
+          $('#item-3-keys').dblclick(function() {
+           window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/greece/key.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+           window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/greece/key2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+           window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/greece/key3.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+           window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/greece/key4.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+           window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/greece/key5.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+           window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/greece/key6.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+
+       });
+     
+           $('#item-3-eye').dblclick(function() {
+           window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/greece/eye.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+           window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/greece/eye2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+           window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/greece/eye3.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+           window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/greece/eye4.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+
+       });
+   
   
     /* japan */
   
