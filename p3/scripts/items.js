@@ -159,6 +159,22 @@ $(document).ready(function() {
         $('#item-2-chile').siblings().children(".item-arrow-grey").hide();
     });
   
+
+     /* egypt */
+  
+     $('#item-2-egypt').click(function(){
+        $('.column-3-holder').show();
+        $('.folder-egypt').show();
+        $('.folder-egypt').siblings().hide();
+        $('.folder-egypt').children().removeClass("old-selected");
+        $('.folder-egypt').children().removeClass("selected");
+        $('#item-2-egypt').removeClass("old-selected");
+        $('#item-2-egypt').children(".item-arrow-grey").hide();
+        $('#item-2-egypt').children(".item-arrow").hide();
+        $('#item-2-egypt').siblings().removeClass("old-selected");
+        $('#item-2-egypt').siblings().children(".item-arrow-grey").hide();
+    });
+  
     /* japan */
   
     $('#item-2-japan').click(function(){
@@ -599,6 +615,37 @@ $(document).ready(function() {
     });
   
 
+     /* egypt */
+  
+     var container = $('.folder-japan');
+     container.click(function(){
+       $('.folder-nations').show();
+       $('#item-2-egypt').removeClass("selected");
+       $('#item-2-egypt').addClass("old-selected");
+       $('#item-2-egypt').children(".item-arrow-blue").hide();
+       $('#item-2-egypt').children(".item-arrow").hide();
+       $('#item-2-egypt').children(".item-arrow-grey").show();
+       $('#item-1-nations').addClass("old-selected");
+       $('#item-1-nations').children(".item-arrow-blue").hide();
+       $('#item-1-nations').children(".item-arrow").hide();
+       $('#item-1-nations').children(".item-arrow-grey").show();
+     });
+   
+     $('#item-3-ankh').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/egypt/ankh.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+    });
+   
+    $('#item-3-beetle').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/egypt/scarab.png", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");   
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/egypt/scarab2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");       });
+    
+    $('#item-3-triangles').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/egypt/triangle.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");   
+    });
+    $('#item-3-ladder').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/egypt/ladder.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");      
+    });
+
   
     /* japan */
   
@@ -965,5 +1012,5 @@ $(document).ready(function() {
     $('#window-2').width(sizeX);
     $('#window-2').height(sizeY);
     $('#window-2').show();
-    $('#window-2').click();
-  }
+    $('#window-2').click(); 
+}
