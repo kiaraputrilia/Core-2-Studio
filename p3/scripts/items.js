@@ -238,6 +238,21 @@ $(document).ready(function() {
             $('#item-2-guatemala').siblings().children(".item-arrow-grey").hide();
         });
 
+         /* ireland */
+  
+         $('#item-2-ireland').click(function(){
+            $('.column-3-holder').show();
+            $('.folder-ireland').show();
+            $('.folder-ireland').siblings().hide();
+            $('.folder-ireland').children().removeClass("old-selected");
+            $('.folder-ireland').children().removeClass("selected");
+            $('#item-2-ireland').removeClass("old-selected");
+            $('#item-2-ireland').children(".item-arrow-grey").hide();
+            $('#item-2-ireland').children(".item-arrow").hide();
+            $('#item-2-ireland').siblings().removeClass("old-selected");
+            $('#item-2-ireland').siblings().children(".item-arrow-grey").hide();
+        });
+
           /* italy */
   
           $('#item-2-italy').click(function(){
@@ -330,6 +345,22 @@ $(document).ready(function() {
                 $('#item-2-ukraine').children(".item-arrow").hide();
                 $('#item-2-ukraine').siblings().removeClass("old-selected");
                 $('#item-2-ukraine').siblings().children(".item-arrow-grey").hide();
+            });
+
+    
+             /* usa */
+  
+             $('#item-2-usa').click(function(){
+                $('.column-3-holder').show();
+                $('.folder-usa').show();
+                $('.folder-usa').siblings().hide();
+                $('.folder-usa').children().removeClass("old-selected");
+                $('.folder-usa').children().removeClass("selected");
+                $('#item-2-usa').removeClass("old-selected");
+                $('#item-2-usa').children(".item-arrow-grey").hide();
+                $('#item-2-usa').children(".item-arrow").hide();
+                $('#item-2-usa').siblings().removeClass("old-selected");
+                $('#item-2-usa').siblings().children(".item-arrow-grey").hide();
             });
 
     /* africa  */
@@ -896,10 +927,29 @@ $(document).ready(function() {
 
       });
 
+ /* ireland */
+  
+         var container = $('.folder-ireland');
+         container.click(function(){
+           $('.folder-nations').show();
+           $('#item-2-ireland').removeClass("selected");
+           $('#item-2-ireland').addClass("old-selected");
+           $('#item-2-ireland').children(".item-arrow-blue").hide();
+           $('#item-2-ireland').children(".item-arrow").hide();
+           $('#item-2-ireland').children(".item-arrow-grey").show();
+           $('#item-1-nations').addClass("old-selected");
+           $('#item-1-nations').children(".item-arrow-blue").hide();
+           $('#item-1-nations').children(".item-arrow").hide();
+           $('#item-1-nations').children(".item-arrow-grey").show();
+         });
+         $('#item-3-clover2').dblclick(function() {
+          window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/germany/clover.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+         
+      });
 
          /* italy */
   
-         var container = $('.folder-guatemala');
+         var container = $('.folder-italy');
          container.click(function(){
            $('.folder-nations').show();
            $('#item-2-italy').removeClass("selected");
@@ -1035,6 +1085,27 @@ $(document).ready(function() {
           window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/ukraine/pysanky.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
     
       });
+
+       /* usa */
+  
+       var container = $('.folder-usa');
+       container.click(function(){
+         $('.folder-nations').show();
+         $('#item-2-usa').removeClass("selected");
+         $('#item-2-usa').addClass("old-selected");
+         $('#item-2-usa').children(".item-arrow-blue").hide();
+         $('#item-2-usa').children(".item-arrow").hide();
+         $('#item-2-usa').children(".item-arrow-grey").show();
+         $('#item-1-nations').addClass("old-selected");
+         $('#item-1-nations').children(".item-arrow-blue").hide();
+         $('#item-1-nations').children(".item-arrow").hide();
+         $('#item-1-nations').children(".item-arrow-grey").show();
+       });
+     
+       $('#item-3-penny').dblclick(function() {
+           window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/usa/penny.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+     
+       });
 
     /* africa */
   
