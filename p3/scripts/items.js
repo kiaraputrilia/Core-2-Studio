@@ -50,21 +50,21 @@ $(document).ready(function() {
         $('.folder-about').children().children(".item-arrow").show();
     });
   
-    /* contact */
+    /* tribes */
   
   
-    $('#item-1-contact').click(function(){
-        $('#item-1-contact').removeClass("old-selected");
-        $('#item-1-contact').children(".item-arrow-grey").hide();
-        $('#item-1-contact').siblings().removeClass("old-selected");
-        $('#item-1-contact').siblings().children(".item-arrow-grey").hide();
-        $('.folder-contact').show();
-        $('.folder-contact').siblings().hide();
-        $('.folder-contact').children().removeClass("selected");
-        $('.folder-contact').children().removeClass("old-selected");
-        $('.folder-contact').children().children(".item-arrow-grey").hide();
-        $('.folder-contact').children().children(".item-arrow-blue").hide();
-        $('.folder-contact').children().children(".item-arrow").show();
+    $('#item-1-tribes').click(function(){
+        $('#item-1-tribes').removeClass("old-selected");
+        $('#item-1-tribes').children(".item-arrow-grey").hide();
+        $('#item-1-tribes').siblings().removeClass("old-selected");
+        $('#item-1-tribes').siblings().children(".item-arrow-grey").hide();
+        $('.folder-tribes').show();
+        $('.folder-tribes').siblings().hide();
+        $('.folder-tribes').children().removeClass("selected");
+        $('.folder-tribes').children().removeClass("old-selected");
+        $('.folder-tribes').children().children(".item-arrow-grey").hide();
+        $('.folder-tribes').children().children(".item-arrow-blue").hide();
+        $('.folder-tribes').children().children(".item-arrow").show();
     });
   
     /* shop */
@@ -396,33 +396,18 @@ $(document).ready(function() {
   
     /* Contact */
   
-    var container = $('.folder-contact');
+    var container = $('.folder-tribes');
     container.click(function(){
-      $('#item-1-contact').removeClass("selected");
-      $('#item-1-contact').addClass("old-selected");
-      $('#item-1-contact').children(".item-arrow-blue").hide();
-      $('#item-1-contact').children(".item-arrow").hide();
-      $('#item-1-contact').children(".item-arrow-grey").show();
+      $('#item-1-tribes').removeClass("selected");
+      $('#item-1-tribes').addClass("old-selected");
+      $('#item-1-tribes').children(".item-arrow-blue").hide();
+      $('#item-1-tribes').children(".item-arrow").hide();
+      $('#item-1-tribes').children(".item-arrow-grey").show();
     });
   
-    /*email*/
   
-    $('#item-2-email').dblclick(function() {
-        alert("email address copied to clipboard");
-        var $temp = $("<input>");
-        $("body").append($temp);
-        $temp.val($("#email-address").text()).select();
-        document.execCommand("copy");
-        $temp.remove();
-    });
   
-    $('#item-2-email').click(function(){
-        $('.column-3-holder').hide();
-        $('#item-2-jake').siblings().removeClass("old-selected");
-        $('#item-2-jake').siblings().children(".item-arrow-grey").hide();
-    });
-  
-    /* yung jake */
+    /* celtics */
   
     $('#item-2-celtics').click(function(){
         $('.column-3-holder').show();
@@ -437,7 +422,7 @@ $(document).ready(function() {
         $('#item-2-celtics').siblings().children(".item-arrow-grey").hide();
     });
   
-    /* vince mckelvie */
+    /* vikings - vince  mckelvie */
   
     $('#item-2-vince').click(function(){
         $('.column-3-holder').show();
@@ -1136,22 +1121,22 @@ $(document).ready(function() {
     });
 
   
-    /* contact */
+    /* tribes */
   
     /* yung jake celtics */
   
-    var container = $('.folder-celtics');
+    var container = $('.folder-jake');
     container.click(function(){
-      $('.folder-contact').show();
-      $('#item-2-celtics').removeClass("selected");
-      $('#item-2-celtics').addClass("old-selected");
-      $('#item-2-celtics').children(".item-arrow-blue").hide();
-      $('#item-2-celtics').children(".item-arrow").hide();
-      $('#item-2-celtics').children(".item-arrow-grey").show();
-      $('#item-1-contact').addClass("old-selected");
-      $('#item-1-contact').children(".item-arrow-blue").hide();
-      $('#item-1-contact').children(".item-arrow").hide();
-      $('#item-1-contact').children(".item-arrow-grey").show();
+      $('.folder-tribes').show();
+      $('#item-2-jake').removeClass("selected");
+      $('#item-2-jake').addClass("old-selected");
+      $('#item-2-jake').children(".item-arrow-blue").hide();
+      $('#item-2-jake').children(".item-arrow").hide();
+      $('#item-2-jake').children(".item-arrow-grey").show();
+      $('#item-1-tribes').addClass("old-selected");
+      $('#item-1-tribes').children(".item-arrow-blue").hide();
+      $('#item-1-tribes').children(".item-arrow").hide();
+      $('#item-1-tribes').children(".item-arrow-grey").show();
     });
   
     $('#item-3-rabbit').dblclick(function() {
@@ -1163,16 +1148,16 @@ $(document).ready(function() {
   
     var container = $('.folder-vince');
     container.click(function(){
-      $('.folder-contact').show();
+      $('.folder-tribes').show();
       $('#item-2-vince').removeClass("selected");
       $('#item-2-vince').addClass("old-selected");
       $('#item-2-vince').children(".item-arrow-blue").hide();
       $('#item-2-vince').children(".item-arrow").hide();
       $('#item-2-vince').children(".item-arrow-grey").show();
-      $('#item-1-contact').addClass("old-selected");
-      $('#item-1-contact').children(".item-arrow-blue").hide();
-      $('#item-1-contact').children(".item-arrow").hide();
-      $('#item-1-contact').children(".item-arrow-grey").show();
+      $('#item-1-tribes').addClass("old-selected");
+      $('#item-1-tribes').children(".item-arrow-blue").hide();
+      $('#item-1-tribes').children(".item-arrow").hide();
+      $('#item-1-tribes').children(".item-arrow-grey").show();
     });
   
     $('#item-3-vince-site').dblclick(function() {
@@ -1240,8 +1225,10 @@ $(document).ready(function() {
     });
   
   
-    /* squad hats */
+    /* native american - squad hats */
   
+
+
     var container = $('.folder-squad-hats');
     container.click(function(){
       $('.column-4-holder').show();
@@ -1255,22 +1242,46 @@ $(document).ready(function() {
       $('#item-1-shop').children(".item-arrow-blue").hide();
       $('#item-1-shop').children(".item-arrow").hide();
       $('#item-1-shop').children(".item-arrow-grey").show();
-      $(".content-area").scrollLeft(480);
+     // $(".content-area").scrollLeft(480);
     });
   
-    $('#item-3-hat-black, #item-4-hat-black').click(function(){
+    $('#item-3-hat-black').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/cultures/native/cricket.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+   
+    });  
+
+    $('#item-3-hat-yellow').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/cultures/native/dream.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/cultures/native/dream2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/cultures/native/dream3.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/cultures/native/dream4.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+
+    });  
+
+    $('#item-3-hat-pink').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/cultures/native/kachina.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+   
+    });  
+
+    $('#item-3-hat-white').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/cultures/native/turtle.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/cultures/native/turtle2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+   
+    });  
+
+   // $('#item-3-hat-black, #item-4-hat-black').click(function(){
       //$('.column-4, .column-4-holder').css("width", "200px");
       //$('.column-4-holder').css("right", "-200px");
-      $(".content-area").scrollLeft(400);
-    });
+   //   $(".content-area").scrollLeft(400);
+   // });
   
-    $('#item-3-hat-black, #item-4-hat-black').dblclick(function(){
-      var positionX = Math.random() * $(window).width() * 0.6 + $(window).width() * 0.2;
-      $('#window-3').css('left', positionX);
-      var positionY = Math.random() * $(window).height() * 0.4 + $(window).height() * 0.2;
-      $('#window-3').css('top', positionY);
-      $('#window-3').show();
-    });
+    //$('#item-3-hat-black, #item-4-hat-black').dblclick(function(){
+     // var positionX = Math.random() * $(window).width() * 0.6 + $(window).width() * 0.2;
+    //  $('#window-3').css('left', positionX);
+   //   var positionY = Math.random() * $(window).height() * 0.4 + $(window).height() * 0.2;
+     // $('#window-3').css('top', positionY);
+    //  $('#window-3').show();
+    // });
   
     // $(document).mouseup(function (e){
     //   var container = $("#item-3-hat-black");
