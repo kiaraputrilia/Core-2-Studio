@@ -516,36 +516,45 @@ $(document).ready(function() {
     });
   
     $('#item-3-coin').dblclick(function() {
-        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/coinCharm.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=350,left=600,width=693,height=445");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/coinCharm.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=350,left=600,width=600,height=900");
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/coinCharm2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
     });
   
-    $('#item-3-santigold').dblclick(function() {
-        window.open('https://cantgetenoughofmyself.webcam/');
+    $('#item-3-gourds').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/gourds.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
     });
   
-    $('#item-3-pepsi').dblclick(function() {
-        window.open('https://vimeo.com/122654034');
+    $('#item-3-chan').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/chan.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=350,left=600,width=693,height=445");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/chan2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");    });
+  
+    $('#item-3-seven').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/seven.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=304,height=166");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/seven2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=20,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/seven3.png", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=530,width=550,height=550");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/seven4.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=350,left=350,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/seven5.png", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=100,left=500,width=500,height=500");    });
+  
+    $('#item-3-cookies').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/cookies.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
     });
   
-    $('#item-3-look').dblclick(function() {
-        window.open('https://www.youtube.com/watch?v=va2TWYe5QDc');
+    $('#item-3-bamboo').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/bamboo.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
     });
   
-    $('#item-3-she').dblclick(function() {
-        window.open('https://www.youtube.com/watch?v=P7WO0I3qKzw');
+    $('#item-3-fu').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/fu.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/fu2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/fu3.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/fu4.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/fu5.png", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/fu6.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+
     });
   
-    $('#item-3-flex').dblclick(function() {
-        window.open('https://www.youtube.com/watch?v=p2cQSPRTdhg');
-    });
-  
-    $('#item-3-aug').dblclick(function() {
-        window.open('http://real.yungjake.com/');
-    });
-  
-    $('#item-3-embeded').dblclick(function() {
-        window.open('http://e.m-bed.de/d/');
+    $('#item-3-dragon').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/dragon.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
     });
   
     $('#item-3-datamosh').dblclick(function() {
