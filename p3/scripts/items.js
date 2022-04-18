@@ -302,6 +302,21 @@ $(document).ready(function() {
         $('#item-2-sweden').siblings().children(".item-arrow-grey").hide();
     });
 
+        /* thailand */
+  
+        $('#item-2-thailand').click(function(){
+            $('.column-3-holder').show();
+            $('.folder-thailand').show();
+            $('.folder-thailand').siblings().hide();
+            $('.folder-thailand').children().removeClass("old-selected");
+            $('.folder-thailand').children().removeClass("selected");
+            $('#item-2-thailand').removeClass("old-selected");
+            $('#item-2-thailand').children(".item-arrow-grey").hide();
+            $('#item-2-thailand').children(".item-arrow").hide();
+            $('#item-2-thailand').siblings().removeClass("old-selected");
+            $('#item-2-thailand').siblings().children(".item-arrow-grey").hide();
+        });
+    
 
     /* africa  */
   
@@ -945,7 +960,7 @@ $(document).ready(function() {
 
      /* sweden */
   
-        var container = $('.folder-peru');
+        var container = $('.folder-sweden');
         container.click(function(){
           $('.folder-nations').show();
           $('#item-2-sweden').removeClass("selected");
@@ -963,7 +978,28 @@ $(document).ready(function() {
             window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/sweden/dalecarlian.png", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
         });
       
+     /* thailand */
   
+     var container = $('.folder-thailand');
+     container.click(function(){
+       $('.folder-nations').show();
+       $('#item-2-thailand').removeClass("selected");
+       $('#item-2-thailand').addClass("old-selected");
+       $('#item-2-thailand').children(".item-arrow-blue").hide();
+       $('#item-2-thailand').children(".item-arrow").hide();
+       $('#item-2-thailand').children(".item-arrow-grey").show();
+       $('#item-1-nations').addClass("old-selected");
+       $('#item-1-nations').children(".item-arrow-blue").hide();
+       $('#item-1-nations').children(".item-arrow").hide();
+       $('#item-1-nations').children(".item-arrow-grey").show();
+     });
+   
+     $('#item-3-elephants').dblclick(function() {
+         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/thailand/elephant.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/thailand/elephant2.png", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/thailand/elephant3.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=700,width=500,height=500");
+
+     });
 
     /* africa */
   
