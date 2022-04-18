@@ -500,14 +500,14 @@ $(document).ready(function() {
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes4.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=350,left=350,width=500,height=500");
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes5.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=100,left=500,width=500,height=500");
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes6.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=304,height=166");
-        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes7.jpg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=20,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes7.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=20,width=500,height=500");
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes8.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=530,width=550,height=550");
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes9.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=350,left=350,width=500,height=500");
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/redEnvelopes10.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=100,left=500,width=500,height=500");
     });
-    $('#item-3-pusha').dblclick(function() {
-        //window.open('https://www.youtube.com/watch?v=7s63y_kfWt4');
-        //openNewWindow(300,556,"Pusha T - H.G.T.V","https://www.youtube.com/embed/7s63y_kfWt4","#item-3-pusha");
+    $('#item-3-knot').dblclick(function() {
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/endlessKnot.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=304,height=166");
+
     });
   
     $('#item-3-offtop').dblclick(function() {
