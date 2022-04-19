@@ -645,13 +645,6 @@ $(document).ready(function() {
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/etc/ball.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=304,height=166");
     });
   
-    $('#item-2-awards-4').dblclick(function() {
-        window.open('http://imdb.com/name/nm5563957/awards?ref_=m_nm_awd');
-    });
-  
-    $('#item-2-awards-5').dblclick(function() {
-        window.open('http://imdb.com/name/nm5563957/awards?ref_=m_nm_awd');
-    });
   
     $('#item-2-awards-6').dblclick(function() {
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/etc/rainbow.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=304,height=166");
