@@ -580,7 +580,7 @@ $(document).ready(function() {
     });
   
     $('#item-2-press-1').dblclick(function() {
-        window.open('http://time.com/3678716/celebrity-emoji-portraits/');
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/seven.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=304,height=166");
     });
   
     $('#item-2-press-2').dblclick(function() {
@@ -634,15 +634,15 @@ $(document).ready(function() {
     });
   
     $('#item-2-awards-1').dblclick(function() {
-        window.open('https://thefwa.com/cases/yung-jake-both');
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/etc/ladybug.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=304,height=166");
     });
   
     $('#item-2-awards-2').dblclick(function() {
-        window.open('http://webbyawards.com/winners/2016/social/social-content-and-marketing/experimental-innovation/yung-jake-both-feat-charlie-heat/');
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/etc/dice.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=304,height=166");
     });
   
     $('#item-2-awards-3').dblclick(function() {
-        window.open('http://shortyawards.com/8th/yungjake');
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/etc/ball.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=304,height=166");
     });
   
     $('#item-2-awards-4').dblclick(function() {
@@ -654,7 +654,7 @@ $(document).ready(function() {
     });
   
     $('#item-2-awards-6').dblclick(function() {
-        window.open('http://www.austinmusicvideofestival.com/winners/');
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/etc/rainbow.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=304,height=166");
     });
   
     /* column-3 */
