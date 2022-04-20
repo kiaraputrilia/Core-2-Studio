@@ -1,0 +1,637 @@
+
+body{
+	overflow: hidden;
+  	background-color: white;
+  	box-sizing: border-box;
+	  font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+#container {
+  width: 95vw;
+  height: 90vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  padding: 0px;
+  position: absolute;
+}
+
+.header{
+	width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+    text-align: center;
+	line-height: 110px;
+	padding-top: 50px;
+	text-decoration: none;
+
+}
+
+.header:hover{
+	color: forestgreen;
+}
+
+
+.a{
+	color: forestgreen;
+	text-decoration: none;
+	border: 3px solid forestgreen;
+	border-radius: 20px;
+	line-height: 25px;
+	padding: 5px 15px 5px 15px;
+	margin-top: 8px;
+}
+
+.a:hover{
+	color: #F2EFE4;
+	background: forestgreen;
+	text-decoration: none;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 190px;
+  background-color: forestgreen;
+  color: #F2EFE4;
+  text-align: center;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 5px 15px 5px 15px;
+  position: absolute;
+  z-index: 10;
+}
+
+.tooltip .tooltiptext a{
+	text-decoration: none;
+	color: white;
+}
+
+.tooltip .tooltiptext a:hover{
+	text-decoration: underline;
+	font-style: italic;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.draggable {
+	position: absolute;
+	filter: grayscale(100%);
+  	z-index: 9;
+}
+
+.draggable:hover{
+	filter: none;
+}
+
+.project img{
+	height: auto;
+	width: 300px;
+}
+
+.ex img{
+	height: auto;
+	width: 200px;
+}
+
+#one{
+	top: 10%;
+	left: 75%;
+}
+
+#one img{
+	width: 150px;
+	height: auto;
+}
+
+#two{
+	top: 40%;
+	left: 12%;
+}
+
+#three{
+	left: 45%;
+	top: 80%;
+}
+
+#four{
+	top: 25%;
+	left: 50%;
+}
+
+#five{
+	top: 55%;
+	left: 35%;
+}
+
+#six{
+	top: 75%;
+	left: 10%;
+}
+
+#seven{
+	top:  40%;
+	left: 80%;
+}
+
+#eight{
+	top: 75%;
+	left: 10%;
+}
+
+#nine{
+	top: 50%;
+	left: 60%;
+}
+
+#ten{
+	top:  80%;
+	left: 90%;
+}
+
+#eleven{
+	top: 11%;
+	left: 44%;
+}
+
+#twelve{
+	top: 10%;
+	left: 60%;
+}
+
+#thirteen{
+	top: 75%;
+	left: 75%;
+}
+
+#fourteen{
+	top:  15%;
+	left: 10%;
+}
+
+#fifteen{
+	top: 70%;
+	left: 35%;
+}
+
+#sixteen{
+	top: 50%;
+	left: 80%;
+}
+
+#seventeen{
+	top:  50%;
+	left: 90%;
+}
+
+#eighteen{
+	top: 9%;
+	left: 25%;
+}
+
+#nineteen{
+	top: 5%;
+	left: 50%;
+}
+
+#twenty{
+	top: 10%;
+	left: 10%;
+}
+
+#twentyOne{
+	top:  45%;
+	left: 5%;
+}
+
+#twentyTwo{
+	top: 35%;
+	left: 35%;
+}
+
+#twentyThree{
+	top: 80%;
+	left: 10%;
+}
+
+#twentyFour{
+	top:  60%;
+	left: 70%;
+}
+
+#twentyFive{
+	top: 25%;
+	left: 9%;
+}
+
+#twentySix{
+	top: 50%;
+	left: 5%;
+}
+
+#twentySeven{
+	top: 65%;
+	left: 50%;
+}
+
+#twentyEight{
+	top: 30%;
+	left: 40%;
+}
+
+#twentyNine{
+	top:  3%;
+	left: 5%;
+}
+
+#thirty{
+	top: 50%;
+	left: 35%;
+}
+
+#thirtyOne{
+	top: 10%;
+	left: 10%;
+}
+
+#thirtyTwo{
+	top:  70%;
+	left: 40%;
+}
+
+#thirtyThree{
+	top: 10%;
+	left: 30%;
+}
+
+#thirtyFour{
+	top: 50%;
+	left: 5%;
+}
+
+#thirtyFive{
+    top: 1%;
+    left: 1%;
+}
+
+#thirtySix{
+    top: 5%;
+    left: 1%;
+}
+
+#thirtySeven{
+    top: 10%;
+    left: 1%;
+}
+
+#thirtyEight{
+    top: 35%;
+    left: 8%;
+}
+
+#thirtyNine{
+    top: 40%;
+    left: 10%;
+}
+
+#forty{
+    top: 3%;
+    left: 40%;
+}
+
+#fortyOne{
+    top: 2%; 
+    left: 85%;
+}
+
+#fortyTwo{
+    top: 5%;
+    left: 80%;
+}
+
+#fortyThree{
+    top: 10%;
+    left: 70%;
+}
+
+#fortyFour{
+    top: 35%;
+    left: 55%;
+}
+
+#fortyFive{
+    top: 40%;
+    left: 20%;
+}
+
+#fortySix{
+    top: 15%;
+    left: 50%;
+}
+
+#fortySeven{
+    top: 90%;
+    left: 25%;
+}
+
+#fortyEight{
+	top:  25%;
+	left: 0%;
+}
+
+#fortyNine{
+	top: 70%;
+	left: 0%;
+}
+
+#fifty{
+	top: 20%;
+	left: 0%;
+}
+
+#fiftyOne{
+	top:  60%;
+	left: 70%;
+}
+
+#fiftyTwo{
+	top: 0%;
+	left: 50%;
+}
+
+#fiftyThree{
+	top: 0%;
+	left: 70%;
+}
+
+#fiftyFour{
+	top: 0%;
+	left: 90%;
+}
+
+#fiftyFive{
+	top: 0%;
+	left: 20%;
+}
+
+#fiftySix{
+	top:  3%;
+	left: 55%;
+}
+
+#fiftySeven{
+	top: 100%;
+	left: 40%;
+}
+
+#fiftyEight{
+	top: 100%;
+	left: 75%;
+}
+
+#fiftyNine{
+	top:  90%;
+	left: 45%;
+}
+
+#sixty{
+	top: 55%;
+	left: 55%;
+}
+
+#sixtyOne{
+	top: 0%;
+	left: 15%;
+}
+
+#sixtyTwo{
+    top: 0%;
+    left: 30%;
+}
+
+#sixtyThree{
+    top: 1%;
+    left: 75%;
+}
+
+#sixtyFour{
+    top: 10%;
+    left: 40%;
+}
+
+#sixtyFive{
+    top: 35%;
+    left: 90%;
+}
+
+#sixtySix{
+    top: 40%;
+    left: 50%;
+}
+
+#sixtySeven{
+    top: 3%;
+    left: 40%;
+}
+
+#sixtyEight{
+    top: 2%; 
+    left: 85%;
+}
+
+#sixtyNine{
+    top: 5%;
+    left: 80%;
+}
+
+#seventy{
+    top: 10%;
+    left: 70%;
+}
+
+#seventyOne{
+    top: 35%;
+    left: 55%;
+}
+
+#seventyTwo{
+    top: 40%;
+    left: 20%;
+}
+
+#SeventyThree{
+    top: 15%;
+    left: 50%;
+}
+
+#SeventyFour{
+    top: 90%;
+    left: 25%;
+}
+
+
+
+
+
+#seventyFive{
+	top: 30%;
+	left: 90%;
+}
+
+#seventySix{
+	top: 0%;
+	left: 60%;
+}
+
+#seventySeven{
+	top: 90%;
+	left: 5%;
+}
+
+#seventyEight{
+	top: 85%;
+	left: 20%;
+}
+
+#seventyNine{
+	top:  55%;
+	left: 30%;
+}
+
+#eighty{
+	top: 40%;
+	left: 100%;
+}
+
+#eightyOne{
+	top: 70%;
+	left: 75%;
+}
+
+#eightyTwo{
+	top:  50%;
+	left: 35%;
+}
+
+#eightyThree{
+	top: 40%;
+	left: 40%;
+}
+
+#eightyFour{
+	top: 25%;
+	left: 55%;
+}
+
+#eightyFive{
+    top: 40%;
+    left: 40%;
+}
+
+#eightySix{
+    top: 85%;
+    left: 55%;
+}
+
+#eightySeven{
+    top: 40%;
+    left: 10%;
+}
+
+#eightyEight{
+    top: 95%;
+    left: 90%;
+}
+
+#eightyNine{
+    top: 50%;
+    left: 40%;
+}
+
+#ninety{
+    top: 50%;
+    left: 60%;
+}
+
+#ninetyOne{
+    top: 80%; 
+    left: 85%;
+}
+
+#ninetyTwo{
+    top: 5%;
+    left: 80%;
+}
+
+#ninetyThree{
+    top: 70%;
+    left: 20%;
+}
+
+#ninetyFour{
+    top: 55%;
+    left: 35%;
+}
+
+#ninetyFive{
+    top: 20%;
+    left: 40%;
+}
+
+#ninetySix{
+    top: 50%;
+    left: 15%;
+}
+
+#ninetySeven{
+    top: 25%;
+    left: 90%;
+}
+
+#ninetyEight{
+    top: 47%;
+    left: 40%;
+}
+
+#ninetyNine{
+    top: 15%;
+    left: 15%;
+}
+
+#hundred{
+    top: 90%;
+    left: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
