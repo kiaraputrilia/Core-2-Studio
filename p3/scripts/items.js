@@ -582,7 +582,6 @@ $(document).ready(function() {
     $('#item-2-press-1').dblclick(function() {
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/endlessKnot.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=500,height=500");
         window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/religion/buddha.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=500,height=500");
-        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nation/china/seven4.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=500,height=500");
 
     });
   
