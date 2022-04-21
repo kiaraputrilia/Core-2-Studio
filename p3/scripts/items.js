@@ -99,7 +99,7 @@ $(document).ready(function() {
         $('.folder-press').children().children(".item-arrow").show();
     });
   
-    /* awards */
+    /* etc - awards */
   
     $('#item-1-awards').click(function(){
         $('#item-1-awards').removeClass("old-selected");
@@ -568,7 +568,7 @@ $(document).ready(function() {
         $('#item-2-harambe-hoodie').siblings().children(".item-arrow-grey").hide();
     });
   
-    /* press */
+    /* religion -- press */
   
     var container = $('.folder-press');
     container.click(function(){
@@ -580,28 +580,29 @@ $(document).ready(function() {
     });
   
     $('#item-2-press-1').dblclick(function() {
-        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/seven.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=304,height=166");
-    });
-  
-    $('#item-2-press-2').dblclick(function() {
-        window.open('http://thecreatorsproject.vice.com/blog/interactive-cgi-music-video-vince-staples');
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nations/china/endlessKnot.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/religion/buddha.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nation/china/seven4.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=500,height=500");
+
     });
   
     $('#item-2-press-3').dblclick(function() {
-        window.open('http://pitchfork.com/news/63726-santigolds-interactive-cant-get-enough-of-myself-video-features-your-face/');
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/religion/crossed.png", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=500,height=500");
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nation/china/seven2.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=500,height=500");
+
     });
   
     $('#item-2-press-4').dblclick(function() {
-        window.open('http://www.theverge.com/2016/2/24/11105278/santigold-new-video-cant-get-enough-of-myself-99-cents');
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nation/thailand/elephant.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=500,height=500");
     });
   
-    $('#item-2-press-5').dblclick(function() {
-        window.open('https://hypebeast.com/2016/4/with-you-vince-staples-ghost-video');
-    });
+   // $('#item-2-press-5').dblclick(function() {
+   //     window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/assets/nation/thailand/elephant.jpeg", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=530,width=500,height=500");
+   // });
   
-    $('#item-2-press-6').dblclick(function() {
-        window.open('http://www.thefader.com/artist/yung-jake');
-    });
+   // $('#item-2-press-6').dblclick(function() {
+   //     window.open('http://www.thefader.com/artist/yung-jake');
+  //  });
   
     $('#item-2-press-7').dblclick(function() {
         window.open('http://www.billboard.com/articles/columns/hip-hop/7271655/jay-z-pharrell-andy-samberg-santigold-cant-get-enough-of-myself-video');
@@ -762,7 +763,7 @@ $(document).ready(function() {
     });
   
     $('#item-3-all').dblclick(function() {
-        window.open('https://www.youtube.com/watch?v=nS7QvOX8LVk');
+        window.open("https://kiaraputrilia.github.io/Core-2-Studio/p3/viewAll.html");
     });
   
 
