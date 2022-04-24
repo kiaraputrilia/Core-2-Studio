@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <title>HTML Forms</title>
+<body>
+<h2>HTML Forms</h2>
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="Enter name here"><br>
+
+<br>
+<br>
+<label for="cname">Color:</label><br>
+<input type="text" id="cname" name="cname" placeholder="change color here"><br>
+
+<input type="submit" value="Submit">
+</form> 
+
+<script>
+    let form = document.querySelector('form');
+    let inputFName = document.querySelector('#fname');
+    let inputCName = document.querySelector('#cname');
+    
+    form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        let firstName = inputFName.value;
+        let color = inputCName.value;
+
+        document.querySelector('#name').innerText = firstName;
+        document.querySelector('body').style.backgroundColor = color;
+
+    });
+
+</script>
+</body>
+</html>
