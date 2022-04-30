@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .block {
+                visibility: hidden;
+            }
+​
+            .block.active {
+                visibility: visible;
+            }
+        </style>
+    </head>
+<body>
+​
+<h2>Keyboard Input</h2>
+<label for="colorSelector">Select a color:</label>
+<select name="colorSelector" id="colorSelector">
+    <option value="blue">Blue</option>
+    <option value="green">Green</option>
+</select>
+​
+<div class="block input--1 dropdown--blue">
+    1
+</div>
+<div class="block input--2 dropdown--blue">
+    2
+</div>
+<div class="block input--3 dropdown--green">
+    3
+</div>
+<script>
+    let allElements = document.querySelectorAll('.block');
+    let dropdownSelect = document.querySelector('#colorSelector');
+​
+    dropdownSelect.addEventListener('change',(event) => {
+        for(let i = 0; i < allElements.length; i++) {
+            allElements[i].classList.remove('active');
+        }    
+​
+        let activeKey = dropdownSelect.value;
+        let activeKeyClass = '.dropdown--' + activeKey;
+        let activeKeyElements = document.querySelectorAll(activeKeyClass);
+​
+        for(let i = 0; i < activeKeyElements.length; i++) {
+            activeKeyElements[i].classList.add('active');
+        }    
+        // activeKeyElement.classList.add('active');
+    });
+​
+    document.addEventListener('keydown', (event) => {
+        for(let i = 0; i < allElements.length; i++) {
+            allElements[i].classList.remove('active');
+        }    
+​
+        let activeKey = event['key'];
+        let activeKeyClass = '.input--' + activeKey;
+        let activeKeyElement = document.querySelector(activeKeyClass);
+        activeKeyElement.classList.add('active');
+    });
+​
+    document.addEventListener('keyup', (event) => {
+        for(let i = 0; i < allElements.length; i++) {
+            allElements[i].classList.remove('active');
+        }    
+    });
+</script>
+​
+</body>
+</html>

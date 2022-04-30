@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <title>HTML Forms</title>
 <body>
 <h2>HTML Forms</h2>
 <form>
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" placeholder="Enter name here"><br>
-
-<br>
-<br>
-<label for="cname">Color:</label><br>
-<input type="text" id="cname" name="cname" placeholder="change color here"><br>
-
-<input type="submit" value="Submit">
+  <label for="cname">Color:</label><br>
+  <input type="text" id="cname" name="cname" placeholder="Enter color in lowercase here"><br>
+  
+  <label for="font">Font:</label><br>
+  <select id="font" name="font">
+    <option value="Helvetica">Helvetica</option>
+    <option value="Times">Times</option>
+  </select>
+  
+  <br>
+  <label for="fontSize">Font Size</label><br>
+  <input type="range" name="fontSize" id="fontSize" min="12" max="40">
+  <br>
+  <input type="submit" value="Submit">
 </form> 
-
+    <div id="fontPicker" style="font-size: 30px;">
+        <p>Hello, <span id="name"></span></p>
+    </div>
 <script>
     let form = document.querySelector('form');
     let inputFName = document.querySelector('#fname');
     let inputCName = document.querySelector('#cname');
+    let inputFont = document.querySelector('#font');
+    let fontPickerElement = document.querySelector('#fontPicker');
+    let inputFontSize = document.querySelector('#fontSize');
     
     form.addEventListener('submit', (event) => {
         event.preventDefault();
         let firstName = inputFName.value;
         let color = inputCName.value;
-
-        document.querySelector('#name').innerText = firstName;
+        document.querySelector('#name').innerText = firstName.toUpperCase();
         document.querySelector('body').style.backgroundColor = color;
-
     });
-
+    inputFName.addEventListener('keyup', (event) => {
+        let firstName = inputFName.value;
+        document.querySelector('#name').innerText = firstName;
+    });
+    fontPickerElement.style.fontFamily = inputFont.value;
+    inputFont.addEventListener('change', (event) => {
+        fontPickerElement.style.fontFamily = inputFont.value;
+        // console.log(inputFont.value);
+    });
+    inputFontSize.addEventListener('change', (event) => {
+        fontPickerElement.style.fontSize = inputFontSize.value + 'px';
+        // console.log(inputFontSize.value);
+    });
 </script>
 </body>
 </html>
