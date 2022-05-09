@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'Suiss Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Suiss Regular'), url('font/SuisseIntl-Regular-WebXL.woff2') format('woff2');
+}
+
+html {
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+@-webkit-keyframes argh-my-eyes {
+    0% {
+        background-color: yellow;
+    }
+
+    49% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: #fff;
+    }
+
+    99% {
+        background-color: #fff;
+    }
+
+    100% {
+        background-color: yellow;
+    }
+}
+
+@-moz-keyframes argh-my-eyes {
+    0% {
+        background-color: yellow;
+    }
+
+    49% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: #fff;
+    }
+
+    99% {
+        background-color: #fff;
+    }
+
+    100% {
+        background-color: yellow;
+    }
+}
+
+@keyframes argh-my-eyes {
+    0% {
+        background-color: yellow;
+    }
+
+    49% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: #fff;
+    }
+
+    99% {
+        background-color: #fff;
+    }
+
+    100% {
+        background-color: yellow;
+    }
+}
+
+::-moz-selection {
+    color: crimson;
+    background: black;
+}
+
+::selection {
+    color: crimson;
+    background: black;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    margin-top: -250px;
+    margin-left: -250px;
+    z-index: 100;
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 2px;
+    margin-left: 6px;
+    font-family: 'Suiss Regular', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    z-index: 99;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: #000000;
+    opacity: 1;
+    padding-right: 10px;
+}
+
+.bottom a:hover {
+    color: crimson;
+}
+
+.two {
+    font-style: italic;
+}
+
+.pink {
+    background-color: crimson;
+}
+
+.pinkb {
+    background-color: yellow;
+    -webkit-animation: argh-my-eyes 0.8s infinite;
+    -moz-animation: argh-my-eyes 0.8s infinite;
+    animation: argh-my-eyes 0.8s infinite;
+}
+
+.marquee a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.marquee a:hover {
+    color: crimson;
+}
+
+.pink a:hover {
+    color: white;
+}
+
+.marquee {
+    height: 26px;
+    max-width: 100vw;
+    /* iOS braucht das */
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Suiss Regular', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 100s linear infinite;
+}
+
+.marquee span:hover {
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.bubble-wrap {
+    position: fixed;
+    bottom: -13em;
+    padding: 3em;
+}
+
+h1 {
+    font-family: 'Suiss Regular', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Suiss Regular', sans-serif;
+    font-weight: 500;
+    font-size: 500px;
+    text-align: center;
+    color: #000000;
+}
+
+#score {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.bubble {
+    border-radius: 5em;
+    height: 8em;
+    width: 8em;
+    cursor: crosshair;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.disable-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.explosion {
+    color: #000000;
+    position: fixed;
+    transform-origin: center;
+    font-family: 'Suiss Regular', sans-serif;
+    font-size: 20px;
+}
+
+.clock {
+    width: 100%;
+    height: 20px;
+    font-size: 40px;
+    padding-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: forestgreen;
+    flex: none;
+}
+
+@media all and (max-width: 560px) {
+
+
+    h2 {
+        font-size: 250px;
+    }
+
+    img {
+        width: 250px;
+        margin-top: -125px;
+        margin-left: -125px;
+    }
+
+}
+

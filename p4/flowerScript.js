@@ -1,24 +1,25 @@
 
 
 function setup(){
-	let canvas = createCanvas(1780,850);
+	let canvas = createCanvas(1780,950);
 	canvas.center('horizontal');
 	colorMode(RGB,255,255,255);
 	noLoop();
+	bg = loadImage('flowerbg.png');
 }
 
 function draw(){
-	background('#06a552');
+	background(bg);
 }
 
 //spacebar to clear everything and start again, enter to save as a png
 function keyPressed(){
 	if(keyCode === 32){
 		clear();
-		background('#06a552');
+		background(bg);
 	}
 	else if (keyCode === ENTER){
-		saveCanvas(canvas,'wow! an artiste!','png');
+		saveCanvas(canvas,'damn this took me a while','png');
 	}
 }
 
@@ -52,35 +53,41 @@ function randomColor(){
 	let g = 0;
 	let b = 0;
 
-	if (i <= 1){
-		r = 0;
-		g = 71;
-		b = 171;
+    if (i <= 1){
+		r = 213;
+		g = 111;
+		b = 207;
 	}
 	else if (i <= 2){
 		r = 255;
-		g = 213;
+		g = 132;
 		b = 0;
 	}
 	else if (i <= 3){
-		r = 201;
-		g = 20;
-		b = 20;
-	}
-	else if (i <= 4){
-		r = 0;
-		g = 71;
-		b = 171;
-	}
-	else  if (i <= 5){
 		r = 255;
 		g = 213;
 		b = 0;
 	}
-	else if (i > 5){
-		r = 201;
-		g = 20;
-		b = 20;
+	else if (i <= 4){
+		r = 213;
+		g = 111;
+		b = 207;
+	}
+	else  if (i <= 5){
+		r = 255;
+		g = 132;
+		b = 0;
+	}
+	else if (i <= 6){
+		r = 255;
+		g = 213;
+		b = 0;
+	}
+	else if (i > 6){
+		r = 213;
+		g = 111;
+		b = 207;
+	
 	}
 
 	return[r,g,b];
@@ -128,6 +135,7 @@ function randomStrokeColor(){
 		g = 255;
 		b = 255;
 	}
+    
 	return[r,g,b];
 }
 
@@ -139,7 +147,7 @@ function randomStroke(){
 
 //random width and height for the shapes
 function randDim(){
-	let i = random(50,150);
+	let i = random(80,80);
 	return i;
 }
 

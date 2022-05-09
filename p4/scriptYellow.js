@@ -1,7 +1,7 @@
 
 
 function setup(){
-	let canvas = createCanvas(1780,850);
+	let canvas = createCanvas(1780,915);
 	canvas.center('horizontal');
 	colorMode(RGB,255,255,255);
 	noLoop();
@@ -53,9 +53,9 @@ function randomColor(){
 	let b = 0;
 
 	if (i <= 1){
-		r = 0;
-		g = 71;
-		b = 171;
+		r = 255;
+		g = 213;
+		b = 0;
 	}
 	else if (i <= 2){
 		r = 255;
@@ -63,24 +63,24 @@ function randomColor(){
 		b = 0;
 	}
 	else if (i <= 3){
-		r = 201;
-		g = 20;
-		b = 20;
-	}
-	else if (i <= 4){
-		r = 0;
-		g = 71;
-		b = 171;
-	}
-	else  if (i <= 5){
 		r = 255;
 		g = 213;
 		b = 0;
 	}
+	else if (i <= 4){
+		r = 215;
+		g = 213;
+		b = 0;
+	}
+	else  if (i <= 5){
+		r = 215;
+		g = 213;
+		b = 0;
+	}
 	else if (i > 5){
-		r = 201;
-		g = 20;
-		b = 20;
+		r = 215;
+		g = 213;
+		b = 0;
 	}
 
 	return[r,g,b];
@@ -139,7 +139,7 @@ function randomStroke(){
 
 //random width and height for the shapes
 function randDim(){
-	let i = random(50,150);
+	let i = random(150,350);
 	return i;
 }
 

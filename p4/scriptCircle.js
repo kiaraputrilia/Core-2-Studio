@@ -1,7 +1,7 @@
 
 
 function setup(){
-	let canvas = createCanvas(1780,850);
+	let canvas = createCanvas(1780,950);
 	canvas.center('horizontal');
 	colorMode(RGB,255,255,255);
 	noLoop();
@@ -27,11 +27,8 @@ function mouseClicked() {
 	let a = random(0,11);
 	if (a <= 5){
 		fill(randomColor());
-	//	stroke(randomStrokeColor());
-	//	strokeWeight(randomStroke());
-		let x = randDim();
-		let y = randDim();
-		rect(mouseX-x/2,mouseY-y/2,x,y);
+		let radius = randDim();
+		ellipse(mouseX,mouseY,radius,radius);
 	}
 	else if(a > 5){
 		fill(randomColor());
@@ -139,7 +136,7 @@ function randomStroke(){
 
 //random width and height for the shapes
 function randDim(){
-	let i = random(50,150);
+	let i = random(250,450);
 	return i;
 }
 

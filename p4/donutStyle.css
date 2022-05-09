@@ -45,7 +45,9 @@
 }
 
 body {
-    background-color: #06a552;
+    background-image: url("donutbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @keyframes marquee {
